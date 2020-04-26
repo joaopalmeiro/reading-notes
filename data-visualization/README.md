@@ -40,6 +40,7 @@ Sunday, April 26, 2020
 
 - "(...) Mercator projection causes northern countries to appear larger than they truly are."
 - The authors "(...) argue that the implicit association with objectivity creates a risk that visualizations can be perceived uncritically and with a limited understanding of the influences that shaped their message, especially at first sight."
+  - "(...) belief at first sight — the uncritical perception of visualizations as a sufficient representation of reality."
 - Data Visualization as a mode of representation (Nelson Goodman's Theory of Symbols).
 - In 2008, a streamgraph "(...) was a new and relatively unknown data representation. Ten years later, this format is included in automatic visualization generation tools such as [Rawgraphs](https://rawgraphs.io/) (...)."
 - "In this way, this conventionally agreed-upon form of representing the visible world \[perspective\] comes to be understood as representing the world "as it is". However, scholars have argued over whether these drawing rules indeed portray perspective as the one "natural" or "correct" mode of representation of a scene, or if they instead reflect a convention for exhibiting three-dimensional scenes."
@@ -53,7 +54,6 @@ Sunday, April 26, 2020
 - "(...) most visualizations represent data that is already an imperfect or incomplete representation of the world."
   - Data provenance/lineage is an important concept for transparency.
 - "Placing perspective, early photography, and data visualization along a historical continuum, we can see a **tendency to systematize and automate methods of producing representations**, from using rules, to machines, to algorithms."
-- "(...) belief at first sight — the uncritical perception of visualizations as a sufficient representation of reality."
 - "What we see is intertwined with our individual and cultural experiences, which are influenced by the history of how visual media have been perceived — as a way to portray an objective reality."
   - "(...) from a cultural point of view, belief at first sight can also happen when a society in general views a medium as fundamentally objective without further critique."
 - "Understanding visualization is a shared responsibility between those who create, acquire, or select data (data providers), those who create representations of data (visualization creators) and those who read or use the visualization (analysts and viewers)."
