@@ -61,4 +61,9 @@ Sunday, April 26, 2020
   - **Deeper visualization literacy**: "Studying and teaching the trajectories and critiques of analogous modes of representation can help creators and audiences alike gain awareness of and contextualize the changes happening in data visualization. Visualization creators can deepen their own visualization literacy by studying and considering data visualization as a part of the historical representation process".
   - **Awareness of black boxes**: "(...) many aspects of visualization can be hidden in "black boxes", from data collection and processing steps, to representation algorithms, to the reasoning behind design choices. Black boxes can be found where there is the greatest risk that viewers' understanding of the relationship between a visualization and the world will break down."
   - **Develop critical reflexivity in visualization**.
-- The authors "(...) conclude with the proposal that visualization is not about aspiring to show the most objective, neutral, and unbiased view, but rather about being aware of the context in which the data was collected, represented, framed and viewed, and the possible biases that may have influenced their portrayal."
+- Punch line: "(...) visualization is not about aspiring to show the most objective, neutral, and unbiased view, but rather about being aware of the context in which the data was collected, represented, framed and viewed, and the possible biases that may have influenced their portrayal."
+- Similar to a position paper.
+- History and Philosophy of Science (and more, like Nelson Goodman's Theory of Symbols) as a _vehicle_ for thinking about Data Visualization.
+- Easy to read, _bite by bite_, until we reach the points we should take with us.
+- The authors share a kind of summary of the transition of perspective and photography as representations of the world "as it is" to _just_ modes of representation.
+- In a nutshell, the authors show us part of the path of perspective and photography as proxies to reflect on the supposed objectivity of Data Visualization.
