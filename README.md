@@ -4,4 +4,5 @@
 
 ## Table of Contents
 
+- [COVID-19](covid-19).
 - [Data Visualization](data-visualization).
