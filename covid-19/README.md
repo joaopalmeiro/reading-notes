@@ -11,7 +11,7 @@ The (bullet point) text enclosed in double quotation marks refers to quotes from
 
 ---
 
-[`What the Proponents of 'Natural' Herd Immunity Don’t Say`](https://www.nytimes.com/2020/05/01/opinion/sunday/coronavirus-herd-immunity.html) | Carl T. Bergstrom, Natalie Dean | The New York Times | 2020
+[`What the Proponents of 'Natural' Herd Immunity Don't Say`](https://www.nytimes.com/2020/05/01/opinion/sunday/coronavirus-herd-immunity.html) | Carl T. Bergstrom, Natalie Dean | The New York Times | 2020
 
 Sunday, May 03, 2020
 
