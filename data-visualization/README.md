@@ -67,3 +67,19 @@ Sunday, April 26, 2020
 - Easy to read, _bite by bite_, until we reach the points we should take with us.
 - The authors share a kind of summary of the transition of perspective and photography as representations of the world "as it is" to _just_ modes of representation.
 - In a nutshell, the authors show us part of the path of perspective and photography as proxies to reflect on the supposed objectivity of Data Visualization.
+
+---
+
+[`Vega-Lite: A Grammar of Interactive Graphics`](http://idl.cs.washington.edu/papers/vega-lite/) | Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, Jeffrey Heer | 2017
+
+Wednesday, May 06, 2020
+
+**Quotes, notes, and takeaways**:
+
+- _Predicate_ (_function_) == _filter criteria_.
+- "(...) grammar of graphics, providing visual encoding rules and a composition algebra for layered and multi-view displays, with a novel \[high-level\] grammar of interaction."
+- "Low-level grammars (...) are useful for _explanatory_ data visualization or as a basis for customized analysis tools, as their primitives offer fine-grained control."
+- "(...) for _exploratory_ visualization, higher-level grammars (...) are typically preferred as they favor conciseness over expressiveness."
+- "Concise specification is achieved in part through ambiguity: users may omit details such as scale transforms (...) or color palettes, which are then filled in using a rule-based system of smart defaults."
+- "_view algebra_: starting with unit specifications that define a single plot, Vega-Lite expresses composite views using operators for layering, horizontal or vertical concatenation, faceting, and parameterized repetition."
+  - "Disparate views can also be combined into arbitrary dashboards, all within a unified algebraic model."
