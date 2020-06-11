@@ -115,3 +115,23 @@ Tuesday, May 26, 2020
   - "This _Log-Error_ is used to evaluate task _Value_ and task _Ratio_. For task _Sort_ and task _Trend_ we use a binary error with _true_ and _false_ value resulting in an accuracy \[(_e_ = 1 - _accuracy_)\] for these tasks".
 - "WSB design improves the accuracy and time of value reading tasks. It has no significant difference to the best performing designs for ratio and sorting/extrema tasks and shows average performance for trend analysis \[the best is the linear design\]."
 - [Altair demo](https://nbviewer.jupyter.org/github/joaopalmeiro/datavis-python-playground/blob/7aca5548f0aa72bf82f38e12eade2118aab4c38d/altair-width-scale-bar-chart/width-scale-bar-chart-hohn-et-al.ipynb).
+
+---
+
+[`Visualization in Notebook-Style Interfaces`](https://diglib.eg.org/handle/10.2312/visgap20201104) | Johanna Schmidt, Thomas Ortner | 2020
+
+Thursday, June 11, 2020
+
+**Quotes, notes, and takeaways**:
+
+- _Profile_ as a term for "(...) verifying the quality of the data and understanding its structure (...)".
+- "(...) data science in many cases converged to stitching together several different tools in every workflow stage to achieve the intended final data analysis goal."
+- Jupyter Notebook is an example of a literate/narrative programming tool.
+- The authors "argue for a stronger focus on notebook-style visualization techniques in visualization research which seamlessly integrate into existing literate programming environments."
+- A tool like [Visplore](http://www.visplore.com/) or a dashboard has a wider layout (vertical alignment), while a tool like Jupyter Notebook has a longer layout (horizontal alignment).
+- "In an iterative workflow and when trying out alternatives, notebooks better preserve the story of the previous steps (_provenance_), which can even easily be shared with others (_collaboration_)."
+- "The narrative style of notebooks naturally creates a log of the complete workflow (...)".
+- "The cell structure and narrative approach of notebooks allows for keeping track of the analysis steps in the workflow, something that is lost in the linked-view environment of standalone tools."
+- [litvis](https://github.com/gicentre/litvis).
+- "Placing **Visualizations** in the **Data Workflow**": "(...) we should work on standardized data interfaces for visualization for both input and output data. Input data is defined as the data used for the visualization. Output data is defined as data created by interacting with the visualization (e.g., selections, filtering)."
+  - The main idea of this point, as far as I realized, is to integrate visualizations as an auxiliary tool during the data preparation stage, and not just as a tool to use after this stage, for example.
