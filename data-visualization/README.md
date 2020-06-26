@@ -2,8 +2,13 @@
 
 ## Table of Contents
 
-- [Papers](#papers).
-  - [`Truncating the Y-Axis: Threat or Menace?`](#1.)
+- [Papers](#papers)
+  - [`Truncating the Y-Axis: Threat or Menace?`](#1)
+  - [`Belief at first sight: Data visualization and the rationalization of seeing`](#2)
+  - [`Vega-Lite: A Grammar of Interactive Graphics`](#3)
+  - [`Width-Scale Bar Charts for Data with Large Value Range`](#4)
+  - [`Visualization in Notebook-Style Interfaces`](#5)
+  - [`Augmenting Code with In Situ Visualizations to Aid Program Understanding`](#6)
 
 ## Papers
 
@@ -34,6 +39,8 @@ Sunday, April 12, 2020
 - The study was conducted in a "relatively context-free manner" (it was not focused on a specific domain, for example).
 
 ---
+
+### 2.
 
 [`Belief at first sight: Data visualization and the rationalization of seeing`](https://benjamins.com/catalog/idj.25.1.04kos) | Doris Kosminsky, Jagoda Walny, Jo Vermeulen, Søren Knudsen, Wesley Willett, Sheelagh Carpendale | 2019
 
@@ -73,6 +80,8 @@ Sunday, April 26, 2020
 
 ---
 
+### 3.
+
 [`Vega-Lite: A Grammar of Interactive Graphics`](http://idl.cs.washington.edu/papers/vega-lite/) | Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, Jeffrey Heer | 2017
 
 Wednesday, May 06, 2020
@@ -98,6 +107,8 @@ Wednesday, May 06, 2020
 
 ---
 
+### 4.
+
 [`Width-Scale Bar Charts for Data with Large Value Range`](https://diglib.eg.org/handle/10.2312/evs20201056) | Markus Höhn, Marcel Wunderlich, Kathrin Ballweg, Tatiana von Landesberger | 2020
 
 Tuesday, May 26, 2020
@@ -121,6 +132,8 @@ Tuesday, May 26, 2020
 
 ---
 
+### 5.
+
 [`Visualization in Notebook-Style Interfaces`](https://diglib.eg.org/handle/10.2312/visgap20201104) | Johanna Schmidt, Thomas Ortner | 2020
 
 Thursday, June 11, 2020
@@ -141,6 +154,8 @@ Thursday, June 11, 2020
   - The main idea of this point, as far as I realized, is to integrate visualizations as an auxiliary tool during the data preparation stage, and not just as a tool to use after this stage, for example.
 
 ---
+
+### 6.
 
 [`Augmenting Code with In Situ Visualizations to Aid Program Understanding`](http://vis.csail.mit.edu/pubs/insitu-vis-debugging) | Jane Hoffswell, Arvind Satyanarayan, Jeffrey Heer | 2018 | [Repo](https://github.com/uwdata/code-augmentation)
 
