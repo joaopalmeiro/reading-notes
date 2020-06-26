@@ -3,12 +3,15 @@
 ## Table of Contents
 
 - [Papers](#papers).
+  - [`Truncating the Y-Axis: Threat or Menace?`](#1.)
 
 ## Papers
 
 The (bullet point) text enclosed in double quotation marks refers to quotes from the author(s) of the respective paper.
 
 ---
+
+### 1.
 
 [`Truncating the Y-Axis: Threat or Menace?`](https://arxiv.org/abs/1907.02035) | Michael Correll, Enrico Bertini, Steven Franconeri | 2020 (v2) | [Repo](https://github.com/mcorrell/truncation)
 
