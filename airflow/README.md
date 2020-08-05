@@ -5,10 +5,10 @@
 These notes are based on DataCamp's "[Introduction to Airflow in Python](https://www.datacamp.com/courses/introduction-to-airflow-in-python)" course:
 
 - Data Engineering tool.
-- Workflows are implemented as DAGs (_set of tasks and dependencies between them_) in Python (it is possible to use Bash scripts, Python functions and other types of building blocks/_tasks_).
+- Workflows are implemented as DAGs (_set of tasks and dependencies between them_) in Python (it is possible to use Bash scripts, Python functions, and other types of building blocks/_tasks_).
 - Alternative: [Luigi](https://luigi.readthedocs.io/en/stable/).
 - An error from the `airflow run` command returns an `airflow.exceptions.AirflowException` on the last line.
-- Airflow is usually used combining the command line (and/or the UI) and Python.
+- Airflow is usually used by combining the command line (and/or the UI) and Python.
 - `Operators`:
   - Single tasks in workflows.
   - They usually run independently and do not share information (however, it may be possible). They are not guaranteed to run in the same location (directory)/environment.
