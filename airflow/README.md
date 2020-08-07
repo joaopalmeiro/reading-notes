@@ -17,14 +17,16 @@ These notes are based on DataCamp's "[Introduction to Airflow in Python](https:/
 - As of Airflow 1.8, task dependencies are defined using bitwise operators:
   - `>>`: Upstream (_before_, that is, an upstream task appears _before_ a downstream task) operator.
   - `<<`: Downstream (_after_) operator.
+- There are more operators in the [`airflow.contrib.operators`](https://airflow.apache.org/docs/stable/_api/airflow/contrib/operators/index.html) module.
 
 ## Imports
 
 ```python
 from airflow.models import DAG
 from airflow.operators.bash_operator import BashOperator
-from airflow.operators.python_operator import PythonOperator
+from airflow.operators.email_operator import EmailOperator
 from airflow.operators.http_operator import SimpleHttpOperator
+from airflow.operators.python_operator import PythonOperator
 ```
 
 ## CLI commands
