@@ -1,0 +1,14 @@
+name: Check the URLs in the Markdown files
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run Tou.md
+        uses: joaopalmeiro/tou@v0.1.0
