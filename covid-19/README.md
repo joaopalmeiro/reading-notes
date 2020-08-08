@@ -30,7 +30,7 @@ The (bullet point) text enclosed in double quotation marks refers to quotes from
 
 ---
 
-[`Coronavirus disease 2019: The harms of exaggerated information and non‐evidence‐based measures`](https://onlinelibrary.wiley.com/doi/abs/10.1111/eci.13222) | John P. A. Ioannidis | 2020
+[`Coronavirus disease 2019: The harms of exaggerated information and non‐evidence‐based measures`](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7163529/) | John P. A. Ioannidis | 2020
 
 Saturday, May 02, 2020
 
