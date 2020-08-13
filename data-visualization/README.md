@@ -9,6 +9,8 @@
   - [`Width-Scale Bar Charts for Data with Large Value Range`](#4)
   - [`Visualization in Notebook-Style Interfaces`](#5)
   - [`Augmenting Code with In Situ Visualizations to Aid Program Understanding`](#6)
+- [Talks](#talks)
+  - [`The Python Data Visualization Landscape in 2020`](#t1)
 
 ## Papers
 
@@ -193,3 +195,23 @@ Friday, June 26, 2020
   - The histogram was the only one without a significant negative effect on intrusiveness.
   - "While we did see a marginally significant effect of the visualization condition on task grade, participants were generally able to answer the task questions by reviewing the code and probing the state information with the tooltip on signals and data fields."
 - "(...) the in situ visualizations turned the underlying data into a physical artifact to reason over."
+
+---
+
+## Talks
+
+### T1.
+
+[`The Python Data Visualization Landscape in 2020`](https://ep2020.europython.eu/talks/B5Vff6U-the-python-data-visualization-landscape-in-2020/) | Bence Arató | EuroPython 2020 | [Recording](https://youtu.be/nUd1Tm5XQQI?t=13285)
+
+Thursday, August 13, 2020
+
+**Notes**:
+
+- [plotnine](https://plotnine.readthedocs.io/en/stable/) (Python + Matplotlib + ggplot2).
+- [HoloViews](http://holoviews.org/). It has 3 backends available: Bokeh, Matplotlib, and Plotly.
+- [hvPlot](https://hvplot.holoviz.org/). It supports different data libraries, such as pandas, [Dask](https://dask.org/), [xarray](http://xarray.pydata.org/en/stable/), among others, and works like a high-level plotting API built on top of HoloViews.
+- [Pandas-Bokeh](https://github.com/PatrikHlobil/Pandas-Bokeh).
+- Spotify's [Chartify](https://github.com/spotify/chartify). It is built on top of Bokeh.
+- [Plotly Express](https://plotly.com/python/plotly-express/). It is Plotly's high-level API.
+- It is possible to combine charts from different plotting libraries with [Panel](https://panel.holoviz.org/) ([example](https://gapminders.pyviz.demo.anaconda.com/gapminders)).
