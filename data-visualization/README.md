@@ -3,12 +3,12 @@
 ## Table of Contents
 
 - [Papers](#papers)
-  - [`Truncating the Y-Axis: Threat or Menace?`](#1)
-  - [`Belief at first sight: Data visualization and the rationalization of seeing`](#2)
-  - [`Vega-Lite: A Grammar of Interactive Graphics`](#3)
-  - [`Width-Scale Bar Charts for Data with Large Value Range`](#4)
-  - [`Visualization in Notebook-Style Interfaces`](#5)
-  - [`Augmenting Code with In Situ Visualizations to Aid Program Understanding`](#6)
+  - [`Truncating the Y-Axis: Threat or Menace?`](#p1)
+  - [`Belief at first sight: Data visualization and the rationalization of seeing`](#p2)
+  - [`Vega-Lite: A Grammar of Interactive Graphics`](#p3)
+  - [`Width-Scale Bar Charts for Data with Large Value Range`](#p4)
+  - [`Visualization in Notebook-Style Interfaces`](#p5)
+  - [`Augmenting Code with In Situ Visualizations to Aid Program Understanding`](#p6)
 - [Talks](#talks)
   - [`The Python Data Visualization Landscape in 2020`](#t1)
 
@@ -18,7 +18,7 @@ The (bullet point) text enclosed in double quotation marks refers to quotes from
 
 ---
 
-### 1.
+### P1.
 
 [`Truncating the Y-Axis: Threat or Menace?`](https://arxiv.org/abs/1907.02035) | Michael Correll, Enrico Bertini, Steven Franconeri | 2020 (v2) | [Repo](https://github.com/mcorrell/truncation)
 
@@ -42,7 +42,7 @@ Sunday, April 12, 2020
 
 ---
 
-### 2.
+### P2.
 
 [`Belief at first sight: Data visualization and the rationalization of seeing`](https://benjamins.com/catalog/idj.25.1.04kos) | Doris Kosminsky, Jagoda Walny, Jo Vermeulen, Søren Knudsen, Wesley Willett, Sheelagh Carpendale | 2019
 
@@ -82,7 +82,7 @@ Sunday, April 26, 2020
 
 ---
 
-### 3.
+### P3.
 
 [`Vega-Lite: A Grammar of Interactive Graphics`](http://idl.cs.washington.edu/papers/vega-lite/) | Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, Jeffrey Heer | 2017
 
@@ -109,7 +109,7 @@ Wednesday, May 06, 2020
 
 ---
 
-### 4.
+### P4.
 
 [`Width-Scale Bar Charts for Data with Large Value Range`](https://diglib.eg.org/handle/10.2312/evs20201056) | Markus Höhn, Marcel Wunderlich, Kathrin Ballweg, Tatiana von Landesberger | 2020
 
@@ -134,7 +134,7 @@ Tuesday, May 26, 2020
 
 ---
 
-### 5.
+### P5.
 
 [`Visualization in Notebook-Style Interfaces`](https://diglib.eg.org/handle/10.2312/visgap20201104) | Johanna Schmidt, Thomas Ortner | 2020
 
@@ -157,7 +157,7 @@ Thursday, June 11, 2020
 
 ---
 
-### 6.
+### P6.
 
 [`Augmenting Code with In Situ Visualizations to Aid Program Understanding`](http://vis.csail.mit.edu/pubs/insitu-vis-debugging) | Jane Hoffswell, Arvind Satyanarayan, Jeffrey Heer | 2018 | [Repo](https://github.com/uwdata/code-augmentation)
 
@@ -214,4 +214,4 @@ Thursday, August 13, 2020
 - [Pandas-Bokeh](https://github.com/PatrikHlobil/Pandas-Bokeh).
 - Spotify's [Chartify](https://github.com/spotify/chartify). It is built on top of Bokeh.
 - [Plotly Express](https://plotly.com/python/plotly-express/). It is Plotly's high-level API.
-- It is possible to combine charts from different plotting libraries with [Panel](https://panel.holoviz.org/) ([example](https://gapminders.pyviz.demo.anaconda.com/gapminders)).
+- It is possible to combine charts from different plotting libraries with [Panel](https://panel.holoviz.org/) ([example](https://panel.holoviz.org/gallery/demos/gapminders.html)).
