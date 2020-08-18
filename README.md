@@ -4,6 +4,10 @@
 
 ## Table of Contents
 
+- [Apache Airflow](airflow).
 - [COVID-19](covid-19).
 - [Data Visualization](data-visualization).
+- [Google](google).
+- [Jupyter (and IPython)](jupyter).
 - [PySpark](pyspark).
+- [Python](python).
