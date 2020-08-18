@@ -25,7 +25,7 @@ These notes are based on Jeff Knupp's "[Python with Context Managers](https://je
 ## Commands
 
 - `python <script>.py 2> <log>.log`: `2>` is used here to redirect the standard error stream to a file.
-- Check the maximum number of open file descriptors: `ulimit -n`
+- Check the maximum number of open file descriptors (on the command line): `ulimit -n`
 
 ## Snippets
 
