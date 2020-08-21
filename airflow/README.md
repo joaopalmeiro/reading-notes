@@ -25,6 +25,15 @@ These notes are based on DataCamp's "[Introduction to Airflow in Python](https:/
 - The first DAG run occurs only on the date corresponding to _`start_date` + `schedule_interval`_.
 - Sensor: An operator that waits for a certain condition to be true.
 - The `poke_interval` parameter must be set to (at least) 1 minute (in seconds) to avoid overloading the Airflow scheduler.
+- Executors:
+  - They run tasks.
+  - `SequentialExecutor`:
+    - It is the default executor that runs one task at a time (something that can be useful for debugging).
+    - It is not recommended for production.
+  - `LocalExecutor`: Each task is a process on the local system (\#parallelism).
+  - `CeleryExecutor`:
+    - [Celery](https://docs.celeryproject.org/en/stable/index.html): It is a queueing system (written in Python).
+    - It is more difficult to configure as it is necessary to configure a Celery backend/broker (such as [RabbitMQ](https://www.rabbitmq.com/), for example) before Airflow and it is necessary to prepare a way to share DAGs between workers (such as a Git server, for example).
 
 ## Imports
 
@@ -37,7 +46,7 @@ from airflow.operators.http_operator import SimpleHttpOperator
 from airflow.operators.python_operator import PythonOperator
 ```
 
-## CLI commands
+## Commands
 
 - Help commands:
   - `airflow -h`
