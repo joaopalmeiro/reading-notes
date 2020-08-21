@@ -40,6 +40,10 @@ These notes are based on DataCamp's "[Introduction to Airflow in Python](https:/
 - [Jinja](https://jinja.palletsprojects.com/) is available as a templating engine for Airflow.
 - There are some (Airflow built-in runtime) variables that can be used in templates. On the other hand, macros allow the use of several objects/methods, such as `{{ macros.datetime }}` (the Python `datetime` object), in templates. A list can be found [here](https://airflow.apache.org/docs/stable/macros-ref.html).
 - Creating individual tasks, instead of creating a single task that receives a list and a template with a loop, for example, allows for better monitoring of task state and potential parallel execution.
+- Branching: It introduces conditional logic in Airflow, that is, it allows tasks to be executed or skipped according to the result of an operator.
+- The `provide_context` parameter of `BranchPythonOperator` allows access to the runtime variables and macros to its function (`python_callable`). This function must accept `**kwargs`.
+- Other operators also accept the `provide_context` parameter.
+- Instead of `**kwargs`, use `**context` (code style).
 
 ## Imports
 
@@ -49,9 +53,10 @@ from datetime import datetime, timedelta
 from airflow.contrib.sensors.file_sensor import FileSensor
 from airflow.models import DAG
 from airflow.operators.bash_operator import BashOperator
+from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.email_operator import EmailOperator
 from airflow.operators.http_operator import SimpleHttpOperator
-from airflow.operators.python_operator import PythonOperator
+from airflow.operators.python_operator import BranchPythonOperator, PythonOperator
 ```
 
 ## Commands
@@ -61,3 +66,7 @@ from airflow.operators.python_operator import PythonOperator
   - `airflow webserver -h`
 - List command (also useful for debugging): `airflow list_dags`
 - Web server command: `airflow webserver`
+- Run a task: `airflow run <dag_id> <task_id> <date>`
+- Run a DAG: `airflow trigger_dag -e <date> <dag_id>`
+- Test a task: `airflow test <dag_id> <task_id> <date>`
+  - It is possible to use `-1` instead of a specific `<date>`.
