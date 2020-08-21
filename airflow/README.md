@@ -34,9 +34,12 @@ These notes are based on DataCamp's "[Introduction to Airflow in Python](https:/
   - `CeleryExecutor`:
     - [Celery](https://docs.celeryproject.org/en/stable/index.html): It is a queueing system (written in Python).
     - It is more difficult to configure as it is necessary to configure a Celery backend/broker (such as [RabbitMQ](https://www.rabbitmq.com/), for example) before Airflow and it is necessary to prepare a way to share DAGs between workers (such as a Git server, for example).
-- The `dags_folder` path must be an absolute path in the `airflow.cfg` file.
+- The `dags_folder` path must be absolute in the `airflow.cfg` file.
 - In Apache Airflow, an SLA refers to the amount of time that a task/DAG should require to run.
 - The `sla` parameter is defined with a Python [`timedelta`](https://docs.python.org/3/library/datetime.html) object. The `microseconds` and `milliseconds` arguments are not used.
+- [Jinja](https://jinja.palletsprojects.com/) is available as a templating engine for Airflow.
+- There are some (Airflow built-in runtime) variables that can be used in templates. On the other hand, macros allow the use of several objects/methods, such as `{{ macros.datetime }}` (the Python `datetime` object), in templates. A list can be found [here](https://airflow.apache.org/docs/stable/macros-ref.html).
+- Creating individual tasks, instead of creating a single task that receives a list and a template with a loop, for example, allows for better monitoring of task state and potential parallel execution.
 
 ## Imports
 
