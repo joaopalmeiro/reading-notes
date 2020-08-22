@@ -11,3 +11,4 @@
 - [Jupyter (and IPython)](jupyter).
 - [PySpark](pyspark).
 - [Python](python).
+- [R](r).
