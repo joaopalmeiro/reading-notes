@@ -4,6 +4,11 @@
 
 - Atomic vectors are vectors whose elements are all of the same type.
 - Lists are also known as generic vectors.
+- Attributes: Metadata for objects. They can be accessed using the `attributes()` function.
+
+## Packages
+
+- [deSolve](http://desolve.r-forge.r-project.org/): A package for differential equations.
 
 ## Snippets
 
