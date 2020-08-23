@@ -11,6 +11,8 @@ These notes are based on Imperial College London's "[Developing the SIR Model](h
   - Social and behavioral factors.
 - How do the relevant variables change over time? **Differential equations**.
 - Carrying capacity (_K_): Maximum population size (resources are not unlimited).
+- Rates are in units of inverse time (_per time_).
+- The inverse of a rate gives the average duration that people spend in a specific compartment (_Infected_ or _Recovered_, for example).
 
 ## Snippets
 
