@@ -2,7 +2,7 @@
 
 ## Google Colab
 
-#### Display pandas DataFrames as interactive tables
+### Display pandas DataFrames as interactive tables
 
 ```python
 # Enable
@@ -22,7 +22,7 @@ df
 
 ## Google Docs
 
-#### Numbered list starting at 0
+### Numbered list starting at 0
 
 1. Create a numbered list.
 2. Place the text cursor _inside_ the numbered list.
