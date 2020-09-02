@@ -20,10 +20,12 @@ These notes are based on PyBites's "[PyBites Developer Tools Workshop](https://p
 
 ## Commands
 
-- Check the list of available file types (_filters_): `ag --list-file-types` (or [here](https://github.com/ggreer/the_silver_searcher/blob/master/tests/list_file_types.t)).
+- Ag:
+  - Check the list of available file types (_filters_): `ag --list-file-types` (or [here](https://github.com/ggreer/the_silver_searcher/blob/master/tests/list_file_types.t)).
 
 ## Aliases
 
-- Limit your search to Python files (`.py`): `alias agg='ag --python'`.
+- Ag:
+  - Limit your search to Python files (`.py`): `alias agg='ag --python'`.
 - `ls` command with file sizes in a human-readable format and with entries sorted from oldest to most recent: `alias lt='ls -lrth'`.
 - `alias brc='code ~/.bashrc'` (file to add aliases).
