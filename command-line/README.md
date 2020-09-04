@@ -18,6 +18,10 @@ These notes are based on PyBites's "[PyBites Developer Tools Workshop](https://p
   - It is a terminal multiplexer.
   - Basically, it allows multiple terminal sessions in a single window.
 
+These notes are based on Wes Bos's "[Command Line Power User](https://wesbos.com/command-line-video-tutorials)" course:
+
+- The `rm` command permanently removes files (no file recovery).
+
 ## Commands
 
 - Ag:
@@ -39,3 +43,7 @@ if [ -f ~/.bashrc ]; then
    source ~/.bashrc
 fi
 ```
+
+## Shortcuts
+
+- Clear (macOS): `Command`+`K`.
