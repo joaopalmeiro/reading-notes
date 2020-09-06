@@ -1,3 +1,5 @@
+<!-- markdownlint-disable-file MD033 -->
+
 # COVID-19
 
 ## Table of Contents

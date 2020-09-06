@@ -210,6 +210,9 @@ Sunday, September 6, 2020
 **Quotes, notes, and takeaways**:
 
 - "Computational notebook" is a broader term for Jupyter or Observable, for example, notebooks.
+- [This repo](https://github.com/jupyter-widgets/widget-cookiecutter) contains a cookiecutter template that shows what is (minimally) necessary to create a Jupyter widget.
+
+---
 
 ## Talks
 
