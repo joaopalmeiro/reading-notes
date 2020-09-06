@@ -1,3 +1,5 @@
+<!-- markdownlint-disable-file MD033 -->
+
 # Data Visualization
 
 ## Table of Contents
@@ -9,6 +11,7 @@
   - [`Width-Scale Bar Charts for Data with Large Value Range`](#p4)
   - [`Visualization in Notebook-Style Interfaces`](#p5)
   - [`Augmenting Code with In Situ Visualizations to Aid Program Understanding`](#p6)
+  - [`B2: Bridging Code and Interactive Visualization in Computational Notebooks`](#p7)
 - [Talks](#talks)
   - [`The Python Data Visualization Landscape in 2020`](#t1)
 
@@ -18,7 +21,7 @@ The (bullet point) text enclosed in double quotation marks refers to quotes from
 
 ---
 
-### P1.
+### P1
 
 [`Truncating the Y-Axis: Threat or Menace?`](https://arxiv.org/abs/1907.02035) | Michael Correll, Enrico Bertini, Steven Franconeri | 2020 (v2) | [Repo](https://github.com/mcorrell/truncation)
 
@@ -42,7 +45,7 @@ Sunday, April 12, 2020
 
 ---
 
-### P2.
+### P2
 
 [`Belief at first sight: Data visualization and the rationalization of seeing`](https://benjamins.com/catalog/idj.25.1.04kos) | Doris Kosminsky, Jagoda Walny, Jo Vermeulen, Søren Knudsen, Wesley Willett, Sheelagh Carpendale | 2019
 
@@ -82,7 +85,7 @@ Sunday, April 26, 2020
 
 ---
 
-### P3.
+### P3
 
 [`Vega-Lite: A Grammar of Interactive Graphics`](http://idl.cs.washington.edu/papers/vega-lite/) | Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, Jeffrey Heer | 2017
 
@@ -109,7 +112,7 @@ Wednesday, May 06, 2020
 
 ---
 
-### P4.
+### P4
 
 [`Width-Scale Bar Charts for Data with Large Value Range`](https://diglib.eg.org/handle/10.2312/evs20201056) | Markus Höhn, Marcel Wunderlich, Kathrin Ballweg, Tatiana von Landesberger | 2020
 
@@ -134,7 +137,7 @@ Tuesday, May 26, 2020
 
 ---
 
-### P5.
+### P5
 
 [`Visualization in Notebook-Style Interfaces`](https://diglib.eg.org/handle/10.2312/visgap20201104) | Johanna Schmidt, Thomas Ortner | 2020
 
@@ -157,7 +160,7 @@ Thursday, June 11, 2020
 
 ---
 
-### P6.
+### P6
 
 [`Augmenting Code with In Situ Visualizations to Aid Program Understanding`](http://vis.csail.mit.edu/pubs/insitu-vis-debugging) | Jane Hoffswell, Arvind Satyanarayan, Jeffrey Heer | 2018 | [Repo](https://github.com/uwdata/code-augmentation)
 
@@ -198,9 +201,19 @@ Friday, June 26, 2020
 
 ---
 
+### P7
+
+[`B2: Bridging Code and Interactive Visualization in Computational Notebooks`](http://vis.mit.edu/pubs/b2) | Yifan Wu, Joseph M. Hellerstein, Arvind Satyanarayan | 2020 | [Repo](https://github.com/ucbrise/b2)
+
+Sunday, September 6, 2020
+
+**Quotes, notes, and takeaways**:
+
+- "Computational notebook" is a broader term for Jupyter or Observable, for example, notebooks.
+
 ## Talks
 
-### T1.
+### T1
 
 [`The Python Data Visualization Landscape in 2020`](https://ep2020.europython.eu/talks/B5Vff6U-the-python-data-visualization-landscape-in-2020/) | Bence Arató | EuroPython 2020 | [Recording](https://youtu.be/nUd1Tm5XQQI?t=13285)
 
