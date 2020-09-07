@@ -212,7 +212,16 @@ Sunday, September 6, 2020
 - _Computational notebook_ is a broader term for Jupyter or Observable, for example, notebooks.
 - B2 is implemented as an extension for Jupyter Notebook ([nbextension](https://testnb.readthedocs.io/en/latest/examples/Notebook/Distributing%20Jupyter%20Extensions%20as%20Python%20Packages.html)).
   - The project setup is based on [ipyvega](https://github.com/vega/ipyvega).
-  - It uses Vega-Lite for the charts.
+  - It consists of two major components:
+    - A Python back-end component.
+    - A JavaScript front-end component.
+  - Main tech stack (excluding Jupyter-related stuff):
+    - Berkeley's _[datascience](https://github.com/data-8/datascience)_ Python package (for data frames).
+    - Python and IPython.
+    - React.
+    - TypeScript.
+    - Vega-Lite and Vega-Embed.
+    - webpack.
   - [This repo](https://github.com/jupyter-widgets/widget-cookiecutter) contains a cookiecutter template that shows what is (minimally) necessary to create a Jupyter widget.
 - "Currently, although these media \[code cells and visualizations\] may be interleaved, they remain **siloed**: interactive visualizations must be manually specified as they are divorced from the analysis provenance expressed via data frames, while code cells have no access to users' interactions with visualizations (...)."
 - "(...) **data queries** as a shared representation between the code and interactive visualizations."
@@ -250,6 +259,11 @@ Sunday, September 6, 2020
     - Extensional predicate: it "(...) enumerates a set of selected data points."
 - **Temporal gap**:
   - "(...) we need to enable users to make their exploratory iterations in visualization **persist** when appropriate, and make their code iteration **more transient** when appropriate."
+  - To address this gap, B2 provides features to capture "(...) a snapshot of visualization (...)", to materialize "(...) interactions as a history log or a (...) data frame (...)", and to create "(...) reactive cells that automatically re-execute when new interaction occurs."
+- **Layout gap**:
+  - Challenges:
+    - "(...) a dashboard layout breaks the formerly tight coupling between a visualization and the code cell containing its specification (...)."
+    - "(...) as interactions on visualizations now occur in the dashboard rather than as part of the linear notebook layout, should code cells containing interaction histories be automatically created or manually requested? (...) where should they be placed in the linear structure of the notebook (...)?"
 
 ---
 
