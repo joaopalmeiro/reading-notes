@@ -221,10 +221,22 @@ Sunday, September 6, 2020
   - Interactive selections are represented by their underlying predicate definitions.
   - This log is reusable when (un)commenting/copying and pasting entries _manually_.
   - All entries except the most recent one are folded (hidden) in the cell, and to reuse them, it is necessary to first unfold them (toggle hide/show).
+  - "(...) the interaction history that B2 produces is expressed as a series of human-understandable API calls [a principle of literate programming], rather than low-level event logs."
+  - "(...) to preserve the linear flow of literate computing, B2 records these interaction histories in new code cells placed **directly after the most recently executed cell**."
 - Cells marked as _reactive_ are automatically recomputed when new interactions occur. This feature is particularly interesting to allow charts created with other libraries, for example, to also be integrated into the workflow.
 - "(...) computational notebooks remain useful far beyond the initial act of authoring: e.g., for auditing, reproducing, or sharing data insights."
 - "As there may be several cells between successive visualizations, it is unlikely to have more than one visualization visible on screen; thus, interaction techniques become confined to operating over a single visualization at a time (...)."
 - The main persona for B2 seems to be the _analyst_.
+- The related work section is divided into two blocks regarding integrating code and interaction:
+  - Interactions **parameterizing** code ([ipywidgets](https://github.com/jupyter-widgets/ipywidgets), for example).
+  - Interactions **generating** code.
+- "B2 synthesizes appropriate visualizations by tracing the data lineage expressed in code (...)."
+- An important question that B2 tries to answer:
+  - How to combine "(...) the highly iterative nature and two-dimensional layout of interactive visualizations with the persistence and linear layout of computational notebooks (...)"?
+- B2 vs. [mage](https://dig.cmu.edu/publications/2020-mage.html):
+  - "B2 targets integrating code with interactive visualizations specifically, whereas %mage looks to graphical interfaces more broadly."
+  - "(...) %mage uses string templates and pattern matching to translate interactions to code (...). In contrast, B2 records interaction histories as _predicates_, a representation that is tailored to interactive visualization but is also more robust to bidirectional changes."
+- The authors identify three gaps:
 
 ---
 
