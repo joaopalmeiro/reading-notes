@@ -231,6 +231,7 @@ Sunday, September 6, 2020
     - TypeScript.
     - Vega-Lite (it leverages Vega-Lite's _grammar of interaction_) and Vega-Embed.
     - webpack.
+  - It does not support pandas, at least for now (more information in [this issue](https://github.com/yifanwu/b2/issues/10)).
   - [This repo](https://github.com/jupyter-widgets/widget-cookiecutter) contains a cookiecutter template that shows what is (minimally) necessary to create a Jupyter widget.
 - "Currently, although these media \[code cells and visualizations\] may be interleaved, they remain **siloed**: interactive visualizations must be manually specified as they are divorced from the analysis provenance expressed via data frames, while code cells have no access to users' interactions with visualizations (...)."
 - "(...) **data queries** as a shared representation between the code and interactive visualizations."
@@ -288,6 +289,7 @@ Sunday, September 6, 2020
 - None of the first-use study participants "(...) used B2's functionalities to navigate from the notebook to the dashboard."
 - Two participants "(...) commented that the alternative approach of mapping interactions to code hadn't crossed their minds. In other words, the first approach requires that the analyst understands how B2 let them work across the two mediums, and it seems from the results that it's not always apparent."
 - It would be interesting to have a _lightweight version_ of B2 in which interactions with a chart would result in a filtered data frame in the next cell.
+- In my opinion, B2 is a tool that contributes/may contribute to help to leverage the benefits of visualizing data (in a smoother way). In practice, it is sometimes easier and faster to manipulate a data frame, draw some conclusions, and proceed with the analysis — instead of creating and using a chart. This approximation of charts to data manipulation seems, at least at first glance, to invite the user to plot data, which may enhance the benefits of visualizing data coupled with the possibility of acting immediately based on what we see and select.
 
 ---
 
