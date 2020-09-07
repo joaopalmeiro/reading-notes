@@ -237,6 +237,9 @@ Sunday, September 6, 2020
   - "B2 targets integrating code with interactive visualizations specifically, whereas %mage looks to graphical interfaces more broadly."
   - "(...) %mage uses string templates and pattern matching to translate interactions to code (...). In contrast, B2 records interaction histories as _predicates_, a representation that is tailored to interactive visualization but is also more robust to bidirectional changes."
 - The authors identify three gaps:
+  - Semantic gap: this gap "(...) prevents each side \[code cells and visualizations\] from understanding the work that is happening in the other;"
+  - Temporal gap: this gap "(...) allows **only** code to persist, and **only** interactions on visualizations to be transient;"
+  - Layout gap: this gap occurs "(...) between the notebook's linear structure and rich coordinated multi-view visualizations."
 
 ---
 
