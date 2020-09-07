@@ -209,6 +209,15 @@ Sunday, September 6, 2020
 
 **Quotes, notes, and takeaways**:
 
+- This paper is divided as follows:
+  - Abstract.
+  - Introduction.
+  - B2 demo (_case study_ style).
+  - Related work.
+  - _Theoretical_ considerations.
+  - System design and implementation.
+  - Evaluation (first-use study with 7 participants).
+  - Conclusion.
 - _Computational notebook_ is a broader term for Jupyter or Observable, for example, notebooks.
 - B2 is implemented as an extension for Jupyter Notebook ([nbextension](https://testnb.readthedocs.io/en/latest/examples/Notebook/Distributing%20Jupyter%20Extensions%20as%20Python%20Packages.html)).
   - The project setup is based on [ipyvega](https://github.com/vega/ipyvega).
@@ -220,7 +229,7 @@ Sunday, September 6, 2020
     - Python and IPython.
     - React.
     - TypeScript.
-    - Vega-Lite and Vega-Embed.
+    - Vega-Lite (it leverages Vega-Lite's _grammar of interaction_) and Vega-Embed.
     - webpack.
   - [This repo](https://github.com/jupyter-widgets/widget-cookiecutter) contains a cookiecutter template that shows what is (minimally) necessary to create a Jupyter widget.
 - "Currently, although these media \[code cells and visualizations\] may be interleaved, they remain **siloed**: interactive visualizations must be manually specified as they are divorced from the analysis provenance expressed via data frames, while code cells have no access to users' interactions with visualizations (...)."
@@ -230,10 +239,11 @@ Sunday, September 6, 2020
 - "When an interaction occurs, B2 reifies \[materializes/persists\] it as a data query and generates a history log in a new code cell."
   - Interactive selections are represented by their underlying predicate definitions.
   - This log is reusable when (un)commenting/copying and pasting entries _manually_.
-  - All entries except the most recent one are folded (hidden) in the cell, and to reuse them, it is necessary to first unfold them (toggle hide/show).
+  - All entries except the most recent one are folded (hidden) in the cell, and to reuse them, it is necessary to first unfold them (toggle hide/show). Entries continue to be added to the same cell until the user switches to the notebook panel.
+  - The user "(...) can toggle the hiding of all generated cells with the `Toggle` \[button\]."
   - "(...) the interaction history that B2 produces is expressed as a series of human-understandable API calls \[a principle of literate programming\], rather than low-level event logs."
   - "(...) to preserve the linear flow of literate computing, B2 records these interaction histories in new code cells placed **directly after the most recently executed cell**."
-- Cells marked as _reactive_ are automatically recomputed when new interactions occur. This feature is particularly interesting to allow charts created with other libraries, for example, to also be integrated into the workflow.
+- Cells marked as _reactive_ (via the `%%reactive` magic command) are automatically recomputed when new interactions occur. This feature is particularly interesting to allow charts created with other libraries, for example, to also be integrated into the workflow (there is an example with [Folium](https://python-visualization.github.io/folium/)).
 - "(...) computational notebooks remain useful far beyond the initial act of authoring: e.g., for auditing, reproducing, or sharing data insights."
 - "As there may be several cells between successive visualizations, it is unlikely to have more than one visualization visible on screen; thus, interaction techniques become confined to operating over a single visualization at a time (...)."
 - The main persona for B2 seems to be the _analyst_.
@@ -241,7 +251,7 @@ Sunday, September 6, 2020
   - Interactions **parameterizing** code ([ipywidgets](https://github.com/jupyter-widgets/ipywidgets), for example).
   - Interactions **generating** code.
 - "B2 synthesizes appropriate visualizations by tracing the data lineage expressed in code (...)."
-- An important question that B2 tries to answer:
+- Important question that B2 tries to answer:
   - How to combine "(...) the highly iterative nature and two-dimensional layout of interactive visualizations with the persistence and linear layout of computational notebooks (...)"?
 - B2 vs. [mage](https://dig.cmu.edu/publications/2020-mage.html):
   - "B2 targets integrating code with interactive visualizations specifically, whereas %mage looks to graphical interfaces more broadly."
@@ -264,6 +274,20 @@ Sunday, September 6, 2020
   - Challenges:
     - "(...) a dashboard layout breaks the formerly tight coupling between a visualization and the code cell containing its specification (...)."
     - "(...) as interactions on visualizations now occur in the dashboard rather than as part of the linear notebook layout, should code cells containing interaction histories be automatically created or manually requested? (...) where should they be placed in the linear structure of the notebook (...)?"
+- "B2 provides a simple Python API to generate interactive visualizations from data frame code." It adds a method, `.vis`, that "(...) does not require any parameters to work — B2 can infer the specification for a data frame visualization using established heuristics (...)." On the other hand, the "(...) `.vis` can be controlled directly via a set of optional parameters based on Vega-Lite configuration specifications (...)":
+  - "The `mark` parameter chooses among bar charts, scatter plots, and line charts;"
+  - "`encoding` configures which column is the x-axis, y-axis, how they should be interpreted (ordinal, quantitative, temporal), and sorted;"
+  - "`selection_type` and `selection_dimensions` configure how the selection should happen and whether the selection is the x-axis, y-axis, or both."
+- The user does not need "(...) to specify any interaction logic — we _infer_ that logic through the data lineage of the queries." If two data frames derive from the same data frame, "(...) infers that they should be linked (...)", for example.
+- Selections (interactions) can be accessed in three different ways:
+  - Predicates: `b2.current_selection` or `b2.all_selections`.
+  - Data from the current selection: `df.get_filtered_data()`.
+  - Code from the current selection: `df.get_code()` (or via the `Copy Code to Clipboard` button).
+- The `snapshot` button allows to _save_ "(...) an SVG representation of the state of all visible visualizations in a notebook cell and the code to derive the data for the respective visualizations in comments."
+- B2 is interesting for situations where we want to repeat the same analysis, including the interactive part, for another dataset with a similar schema to the initial one.
+- None of the first-use study participants "(...) used B2's functionalities to navigate from the notebook to the dashboard."
+- Two participants "(...) commented that the alternative approach of mapping interactions to code hadn't crossed their minds. In other words, the first approach requires that the analyst understands how B2 let them work across the two mediums, and it seems from the results that it's not always apparent."
+- It would be interesting to have a _lightweight version_ of B2 in which interactions with a chart would result in a filtered data frame in the next cell.
 
 ---
 
