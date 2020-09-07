@@ -210,12 +210,21 @@ Sunday, September 6, 2020
 **Quotes, notes, and takeaways**:
 
 - _Computational notebook_ is a broader term for Jupyter or Observable, for example, notebooks.
-- [This repo](https://github.com/jupyter-widgets/widget-cookiecutter) contains a cookiecutter template that shows what is (minimally) necessary to create a Jupyter widget.
-- "Currently, although these media \[code and visualizations\] may be interleaved, they remain **siloed**: interactive visualizations must be manually specified as they are divorced from the analysis provenance expressed via dataframes, while code cells have no access to users' interactions with visualizations (...)."
+- B2 is implemented as an extension for Jupyter Notebook ([nbextension](https://testnb.readthedocs.io/en/latest/examples/Notebook/Distributing%20Jupyter%20Extensions%20as%20Python%20Packages.html)).
+  - The project setup is based on [ipyvega](https://github.com/vega/ipyvega).
+  - [This repo](https://github.com/jupyter-widgets/widget-cookiecutter) contains a cookiecutter template that shows what is (minimally) necessary to create a Jupyter widget.
+- "Currently, although these media \[code cells and visualizations\] may be interleaved, they remain **siloed**: interactive visualizations must be manually specified as they are divorced from the analysis provenance expressed via dataframes, while code cells have no access to users' interactions with visualizations (...)."
 - "(...) **data queries** as a shared representation between the code and interactive visualizations."
-- The charts are displayed on a dashboard located to the right of the notebook.
-- "When an interaction occurs, B2 reifies [(materializes)] it as a data query and generates a history log in a new code cell."
+  - "The fundamental task of data analysis involves **iterative data transformation**, and both code and interactive visualizations [via interactive selections] can capture this task as a _data query_."
+- The charts are displayed on a dashboard located to the right of the notebook. The dashboard panel facilitates (interactive) multi-view displays (regardless of the source cell).
+- "When an interaction occurs, B2 reifies [materializes/persists] it as a data query and generates a history log in a new code cell."
+  - Interactive selections are represented by their underlying predicate definitions.
+  - This log is reusable when (un)commenting/copying and pasting entries _manually_.
+  - All entries except the most recent one are folded (hidden) in the cell, and to reuse them, it is necessary to first unfold them (toggle hide/show).
 - Cells marked as _reactive_ are automatically recomputed when new interactions occur. This feature is particularly interesting to allow charts created with other libraries, for example, to also be integrated into the workflow.
+- "(...) computational notebooks remain useful far beyond the initial act of authoring: e.g., for auditing, reproducing, or sharing data insights."
+- "As there may be several cells between successive visualizations, it is unlikely to have more than one visualization visible on screen; thus, interaction techniques become confined to operating over a single visualization at a time (...)."
+- The main persona for B2 seems to be the _analyst_.
 
 ---
 
