@@ -212,16 +212,17 @@ Sunday, September 6, 2020
 - _Computational notebook_ is a broader term for Jupyter or Observable, for example, notebooks.
 - B2 is implemented as an extension for Jupyter Notebook ([nbextension](https://testnb.readthedocs.io/en/latest/examples/Notebook/Distributing%20Jupyter%20Extensions%20as%20Python%20Packages.html)).
   - The project setup is based on [ipyvega](https://github.com/vega/ipyvega).
+  - It uses Vega-Lite for the charts.
   - [This repo](https://github.com/jupyter-widgets/widget-cookiecutter) contains a cookiecutter template that shows what is (minimally) necessary to create a Jupyter widget.
 - "Currently, although these media \[code cells and visualizations\] may be interleaved, they remain **siloed**: interactive visualizations must be manually specified as they are divorced from the analysis provenance expressed via data frames, while code cells have no access to users' interactions with visualizations (...)."
 - "(...) **data queries** as a shared representation between the code and interactive visualizations."
-  - "The fundamental task of data analysis involves **iterative data transformation**, and both code and interactive visualizations [via interactive selections] can capture this task as a _data query_."
+  - "The fundamental task of data analysis involves **iterative data transformation**, and both code \[via data frame manipulations\] and interactive visualizations \[via interactive selections\] can capture this task as a _data query_."
 - The charts are displayed on a dashboard located to the right of the notebook. The dashboard panel facilitates (interactive) multi-view displays (regardless of the source cell).
-- "When an interaction occurs, B2 reifies [materializes/persists] it as a data query and generates a history log in a new code cell."
+- "When an interaction occurs, B2 reifies \[materializes/persists\] it as a data query and generates a history log in a new code cell."
   - Interactive selections are represented by their underlying predicate definitions.
   - This log is reusable when (un)commenting/copying and pasting entries _manually_.
   - All entries except the most recent one are folded (hidden) in the cell, and to reuse them, it is necessary to first unfold them (toggle hide/show).
-  - "(...) the interaction history that B2 produces is expressed as a series of human-understandable API calls [a principle of literate programming], rather than low-level event logs."
+  - "(...) the interaction history that B2 produces is expressed as a series of human-understandable API calls \[a principle of literate programming\], rather than low-level event logs."
   - "(...) to preserve the linear flow of literate computing, B2 records these interaction histories in new code cells placed **directly after the most recently executed cell**."
 - Cells marked as _reactive_ are automatically recomputed when new interactions occur. This feature is particularly interesting to allow charts created with other libraries, for example, to also be integrated into the workflow.
 - "(...) computational notebooks remain useful far beyond the initial act of authoring: e.g., for auditing, reproducing, or sharing data insights."
@@ -240,9 +241,15 @@ Sunday, September 6, 2020
   - Semantic gap: this gap "(...) prevents each side \[code cells and visualizations\] from understanding the work that is happening in the other;"
   - Temporal gap: this gap "(...) allows **only** code to persist, and **only** interactions on visualizations to be transient;"
   - Layout gap: this gap occurs "(...) between the notebook's linear structure and rich coordinated multi-view visualizations."
-- "(...) visualizations do not understand the work expressed in code: specifically it is blind to the lineage of transformations and derivations on a data frame. (...) an analyst must manually construct appropriate interactive visualizations from scratch even if the code that specifies the data frame **captures semantics that can automate visualization design**." Two examples:
-  - "(...) when data results from a _group_ operator, it is typical to favor a _bar_ marks to produce a histogram."
-  - "(...) visualizations of two derived data frames that share a common ancestor can often be usefully linked or cross-filtered."
+- **Semantic gap**:
+  - "(...) visualizations do not understand the work expressed in code: specifically it is blind to the lineage of transformations and derivations on a data frame. (...) an analyst must manually construct appropriate interactive visualizations from scratch even if the code that specifies the data frame **captures semantics that can automate visualization design**." Two examples:
+    - "(...) when data results from a _group_ operator, it is typical to favor a _bar_ marks to produce a histogram."
+    - "(...) visualizations of two derived data frames that share a common ancestor can often be usefully linked or cross-filtered."
+  - "(...) every Vega-Lite selection includes a definition for a _predicate_ \[data query\] (...)."
+    - Intensional predicate: it "(...) specifies a set of data points based on logical conditions that must be satisfied (...)"
+    - Extensional predicate: it "(...) enumerates a set of selected data points."
+- **Temporal gap**:
+  - "(...) we need to enable users to make their exploratory iterations in visualization **persist** when appropriate, and make their code iteration **more transient** when appropriate."
 
 ---
 
