@@ -209,8 +209,13 @@ Sunday, September 6, 2020
 
 **Quotes, notes, and takeaways**:
 
-- "Computational notebook" is a broader term for Jupyter or Observable, for example, notebooks.
+- _Computational notebook_ is a broader term for Jupyter or Observable, for example, notebooks.
 - [This repo](https://github.com/jupyter-widgets/widget-cookiecutter) contains a cookiecutter template that shows what is (minimally) necessary to create a Jupyter widget.
+- "Currently, although these media \[code and visualizations\] may be interleaved, they remain **siloed**: interactive visualizations must be manually specified as they are divorced from the analysis provenance expressed via dataframes, while code cells have no access to users' interactions with visualizations (...)."
+- "(...) **data queries** as a shared representation between the code and interactive visualizations."
+- The charts are displayed on a dashboard located to the right of the notebook.
+- "When an interaction occurs, B2 reifies [(materializes)] it as a data query and generates a history log in a new code cell."
+- Cells marked as _reactive_ are automatically recomputed when new interactions occur. This feature is particularly interesting to allow charts created with other libraries, for example, to also be integrated into the workflow.
 
 ---
 
