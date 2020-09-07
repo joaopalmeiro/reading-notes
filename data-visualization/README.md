@@ -213,7 +213,7 @@ Sunday, September 6, 2020
 - B2 is implemented as an extension for Jupyter Notebook ([nbextension](https://testnb.readthedocs.io/en/latest/examples/Notebook/Distributing%20Jupyter%20Extensions%20as%20Python%20Packages.html)).
   - The project setup is based on [ipyvega](https://github.com/vega/ipyvega).
   - [This repo](https://github.com/jupyter-widgets/widget-cookiecutter) contains a cookiecutter template that shows what is (minimally) necessary to create a Jupyter widget.
-- "Currently, although these media \[code cells and visualizations\] may be interleaved, they remain **siloed**: interactive visualizations must be manually specified as they are divorced from the analysis provenance expressed via dataframes, while code cells have no access to users' interactions with visualizations (...)."
+- "Currently, although these media \[code cells and visualizations\] may be interleaved, they remain **siloed**: interactive visualizations must be manually specified as they are divorced from the analysis provenance expressed via data frames, while code cells have no access to users' interactions with visualizations (...)."
 - "(...) **data queries** as a shared representation between the code and interactive visualizations."
   - "The fundamental task of data analysis involves **iterative data transformation**, and both code and interactive visualizations [via interactive selections] can capture this task as a _data query_."
 - The charts are displayed on a dashboard located to the right of the notebook. The dashboard panel facilitates (interactive) multi-view displays (regardless of the source cell).
@@ -240,6 +240,9 @@ Sunday, September 6, 2020
   - Semantic gap: this gap "(...) prevents each side \[code cells and visualizations\] from understanding the work that is happening in the other;"
   - Temporal gap: this gap "(...) allows **only** code to persist, and **only** interactions on visualizations to be transient;"
   - Layout gap: this gap occurs "(...) between the notebook's linear structure and rich coordinated multi-view visualizations."
+- "(...) visualizations do not understand the work expressed in code: specifically it is blind to the lineage of transformations and derivations on a data frame. (...) an analyst must manually construct appropriate interactive visualizations from scratch even if the code that specifies the data frame **captures semantics that can automate visualization design**." Two examples:
+  - "(...) when data results from a _group_ operator, it is typical to favor a _bar_ marks to produce a histogram."
+  - "(...) visualizations of two derived data frames that share a common ancestor can often be usefully linked or cross-filtered."
 
 ---
 
