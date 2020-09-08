@@ -203,7 +203,7 @@ Friday, June 26, 2020
 
 ### P7
 
-[`B2: Bridging Code and Interactive Visualization in Computational Notebooks`](http://vis.mit.edu/pubs/b2) | Yifan Wu, Joseph M. Hellerstein, Arvind Satyanarayan | 2020 | [Repo](https://github.com/ucbrise/b2)
+[`B2: Bridging Code and Interactive Visualization in Computational Notebooks`](http://vis.mit.edu/pubs/b2) | Yifan Wu, Joseph M. Hellerstein, Arvind Satyanarayan | 2020 | [Repo](https://github.com/ucbrise/b2), [Study Repo](https://github.com/yifanwu/midas-exp-pub)
 
 Sunday, September 6, 2020
 
