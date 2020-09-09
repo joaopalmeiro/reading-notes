@@ -290,6 +290,7 @@ Sunday, September 6, 2020
 - Two participants "(...) commented that the alternative approach of mapping interactions to code hadn't crossed their minds. In other words, the first approach requires that the analyst understands how B2 let them work across the two mediums, and it seems from the results that it's not always apparent."
 - It would be interesting to have a _lightweight version_ of B2 in which interactions with a chart would result in a filtered data frame in the next cell.
 - In my opinion, B2 is a tool that contributes/may contribute to help to leverage the benefits of visualizing data (in a smoother way). In practice, it is sometimes easier and faster to manipulate a data frame, draw some conclusions, and proceed with the analysis — instead of creating and using a chart. This approximation of charts to data manipulation seems, at least at first glance, to invite the user to plot data, which may enhance the benefits of visualizing data coupled with the possibility of acting immediately based on what we see and select.
+- [Presentation and demo](https://github.com/joaopalmeiro/b2-presentation).
 
 ---
 
