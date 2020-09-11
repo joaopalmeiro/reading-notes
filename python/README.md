@@ -22,6 +22,11 @@ These notes are based on Jeff Knupp's "[Python with Context Managers](https://je
 - Python has a [`contextlib`](https://docs.python.org/3/library/contextlib.html) module.
 - The `contextlib.ContextDecorator` class allows you to create class-based context managers that can be used as decorators as well.
 
+These notes are based on Ethan Smith's "[PEP 561 -- Distributing and Packaging Type Information](https://www.python.org/dev/peps/pep-0561/)" page:
+
+- Stubs: These are files that contain only information about the types (no runtime code) and the filename ends in `.pyi`.
+- A module can also be a file that contains stubbed type information.
+
 ## Commands
 
 - `python <script>.py 2> <log>.log`: `2>` is used here to redirect the standard error stream to a file.
