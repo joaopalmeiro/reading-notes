@@ -26,6 +26,14 @@ These notes are based on Ethan Smith's "[PEP 561 -- Distributing and Packaging T
 
 - Stubs: These are files that contain only information about the types (no runtime code) and the filename ends in `.pyi`.
 - A module can also be a file that contains stubbed type information.
+- To include type information in a package, you need to do the following:
+  - Add a marker file named `py.typed`.
+    - This file applies recursively, that is, if a top-level package includes it, all its subpackages must support type checking as well.
+    - For namespace packages, this file should be added to the submodules.
+  - For the `py.typed` file to be installed with the package, add it to the `package_data` keyword argument of the `setup()` function: `package_data = {"foopkg": ["py.typed"]}`.
+  - To include stub files, add `*.pyi` stubs next to the corresponding `*.py` files.
+- It is also possible to create stub-only packages to be distributed separately. This requires the following:
+  - The name of the stub-only package must be in the following format: _PACKAGENAME-stubs_ (for example, _foopkg-stub_ for the _foopkg_ package).
 
 ## Commands
 
