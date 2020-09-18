@@ -321,9 +321,9 @@ Thursday, September 17, 2020
   - Dissimilarity metrics (between neurons):
     - "(...) Euclidean distance for continuous values (...)."
     - "(...) measure based on probabilities for categorical features."
-    - Two types:
-      - "(...) one for the training of the SOM [, that is, between neurons and input feature vectors] (...)": "(...) the dissimilarity between an input vector and the reference vector of a neuron is defined as the sum of the numerical and categorical parts. The numerical part is calculated using Euclidean distance on normalised values. For the categorical dissimilarity measure the sum of the partial dissimilarities is calculated, i.e., the dissimilarity is measured as the probability of the reference vector not containing the category in the input vector."
-      - "(...) another for the visualization [, that is, between neurons].": "(...) For the numerical part the traditional Euclidean distance is applied (...). For the categorical features the dissimilarity measure was defined as the Euclidean distance between the probabilities for each of the categories present in the reference vectorv (...)."
+    - Two types ("the [final] dissimilarity [measures] (...) [are] defined as the sum of the numerical and categorical parts (...)"):
+      - "(...) one for the training of the SOM [, that is, between neurons and input feature vectors] (...)": "The numerical part is calculated using Euclidean distance on normalised values. For the categorical dissimilarity measure the sum of the partial dissimilarities is calculated, i.e., the dissimilarity is measured as the probability of the reference vector not containing the category in the input vector."
+      - "(...) another for the visualization [, that is, between neurons].": "For the numerical part the traditional Euclidean distance is applied $`D_n(W_i, W_j) =`$. For the categorical features the dissimilarity measure was defined as the Euclidean distance between the probabilities for each of the categories present in the reference vector (...)."
   - Python package for SOMs: [MiniSom](https://github.com/JustGlowing/minisom).
 - The proposed tool is divided into two main views:
   - "(...) the visualization of the transactions history (...)."
