@@ -304,11 +304,27 @@ Thursday, September 17, 2020
 **Quotes, notes, and takeaways**:
 
 - Target group: fraud analysts.
-- Main analysis goals identified by fraud analysts:
-  - "(...) understand the temporal evolution of a set of transactions — usually grouped by an attribute, such as client ID (...)."
-  - "(...) search for patterns and common characteristics among transactions."
+- Main analysis goals/tasks identified by fraud analysts:
+  - "(...) understand the temporal evolution of a set of transactions — usually grouped by an attribute, such as client ID (...)" or "(...) the comprehension of the transactions history;"
+  - "(...) search for patterns and common characteristics among transactions (...)" or "the detection of the most common types of transactions [as it helps to distinguish between typical and atypical behaviors]."
+- Requirements:
+  - "Search by field."
+  - "Distinguish amount values [(money)]."
+  - "Distinguish transactions."
+  - "Search common fields."
+  - "Detect typical transactions. Detect the most common types of transactions can aid the analyst in the perception of unusual transactions, possibly related to fraud."
 - Visualizing the output of a self-organizing map (SOM) is a way of providing "(...) a visual summary of the data topology (...)".
-  - SOM: it "(...) is a method for dimensionality reduction that preserves topological and metric relationships of the input data."
+  - SOM: it "(...) is a method [(neural network)] for dimensionality reduction that preserves topological and metric relationships of the input data."
+  - The authors use an algorithm that works with mixed data (numerical and categorical features) — Frequency neuron Mixed Self-Organizing Map (FMSOM).
+  - To visualize a SOM, neurons are typically projected on a 2D grid ("(...) hexagonal grids can also be used").
+  - "The most common projection is the Unified Distance Matrix (U-matrix), in which neurons are placed in a grid and the Euclidean distances between neighbouring neurons are represented through a grey scale colour palette."
+  - Dissimilarity metrics (between neurons):
+    - "(...) Euclidean distance for continuous values (...)."
+    - "(...) measure based on probabilities for categorical features."
+    - Two types:
+      - "(...) one for the training of the SOM [, that is, between neurons and input feature vectors] (...)": "(...) the dissimilarity between an input vector and the reference vector of a neuron is defined as the sum of the numerical and categorical parts. The numerical part is calculated using Euclidean distance on normalised values. For the categorical dissimilarity measure the sum of the partial dissimilarities is calculated, i.e., the dissimilarity is measured as the probability of the reference vector not containing the category in the input vector."
+      - "(...) another for the visualization [, that is, between neurons].": "(...) For the numerical part the traditional Euclidean distance is applied (...). For the categorical features the dissimilarity measure was defined as the Euclidean distance between the probabilities for each of the categories present in the reference vectorv (...)."
+  - Python package for SOMs: [MiniSom](https://github.com/JustGlowing/minisom).
 - The proposed tool is divided into two main views:
   - "(...) the visualization of the transactions history (...)."
   - "(...) the visualization of the transactions topology [through two SOM-based projections — matrix and force-directed graph]."
