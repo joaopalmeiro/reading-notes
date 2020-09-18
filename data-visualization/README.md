@@ -12,6 +12,7 @@
   - [`Visualization in Notebook-Style Interfaces`](#p5)
   - [`Augmenting Code with In Situ Visualizations to Aid Program Understanding`](#p6)
   - [`B2: Bridging Code and Interactive Visualization in Computational Notebooks`](#p7)
+  - [`VaBank: Visual Analytics for Banking Transactions`](#p8)
 - [Talks](#talks)
   - [`The Python Data Visualization Landscape in 2020`](#t1)
 
@@ -266,7 +267,7 @@ Sunday, September 6, 2020
     - "(...) when data results from a _group_ operator, it is typical to favor a _bar_ marks to produce a histogram."
     - "(...) visualizations of two derived data frames that share a common ancestor can often be usefully linked or cross-filtered."
   - "(...) every Vega-Lite selection includes a definition for a _predicate_ \[data query\] (...)."
-    - Intensional predicate: it "(...) specifies a set of data points based on logical conditions that must be satisfied (...)"
+    - Intensional predicate: it "(...) specifies a set of data points based on logical conditions that must be satisfied (...)."
     - Extensional predicate: it "(...) enumerates a set of selected data points."
 - **Temporal gap**:
   - "(...) we need to enable users to make their exploratory iterations in visualization **persist** when appropriate, and make their code iteration **more transient** when appropriate."
@@ -291,6 +292,26 @@ Sunday, September 6, 2020
 - It would be interesting to have a _lightweight version_ of B2 in which interactions with a chart would result in a filtered data frame in the next cell.
 - In my opinion, B2 is a tool that contributes/may contribute to help to leverage the benefits of visualizing data (in a smoother way). In practice, it is sometimes easier and faster to manipulate a data frame, draw some conclusions, and proceed with the analysis — instead of creating and using a chart. This approximation of charts to data manipulation seems, at least at first glance, to invite the user to plot data, which may enhance the benefits of visualizing data coupled with the possibility of acting immediately based on what we see and select.
 - [Presentation and demo](https://github.com/joaopalmeiro/b2-presentation).
+
+---
+
+### P8
+
+[`VaBank: Visual Analytics for Banking Transactions`](https://conferences.computer.org/iv/pdfs/IV2020-5aDDWiHiJcr3O59ex2Ftp6/913400a336/913400a336.pdf) | Catarina Maçãs, Evgheni Polisciuc, Penousal Machado | 2020
+
+Thursday, September 17, 2020
+
+**Quotes, notes, and takeaways**:
+
+- Target group: fraud analysts.
+- Main analysis goals identified by fraud analysts:
+  - "(...) understand the temporal evolution of a set of transactions — usually grouped by an attribute, such as client ID (...)."
+  - "(...) search for patterns and common characteristics among transactions."
+- Visualizing the output of a self-organizing map (SOM) is a way of providing "(...) a visual summary of the data topology (...)".
+  - SOM: it "(...) is a method for dimensionality reduction that preserves topological and metric relationships of the input data."
+- The proposed tool is divided into two main views:
+  - "(...) the visualization of the transactions history (...)."
+  - "(...) the visualization of the transactions topology [through two SOM-based projections — matrix and force-directed graph]."
 
 ---
 
