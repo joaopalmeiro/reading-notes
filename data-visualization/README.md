@@ -323,11 +323,27 @@ Thursday, September 17, 2020
     - "(...) measure based on probabilities for categorical features."
     - Two types ("the [final] dissimilarity [measures] (...) [are] defined as the sum of the numerical and categorical parts (...)"):
       - "(...) one for the training of the SOM [, that is, between neurons and input feature vectors] (...)": "The numerical part is calculated using Euclidean distance on normalised values. For the categorical dissimilarity measure the sum of the partial dissimilarities is calculated, i.e., the dissimilarity is measured as the probability of the reference vector not containing the category in the input vector."
-      - "(...) another for the visualization [, that is, between neurons].": "For the numerical part the traditional Euclidean distance is applied $D_n(W_i, W_j) = \sqrt{\sum_{z=1}^n (W_{iz} - W_{jz})^2}$. For the categorical features the dissimilarity measure was defined as the Euclidean distance between the probabilities for each of the categories present in the reference vector (...)."
+      - "(...) another for the visualization [, that is, between neurons].": "For the numerical part the traditional Euclidean distance is applied `$D_n(W_i, W_j) = \sqrt{\sum_{z=1}^n (W_{iz} - W_{jz})^2}$`. For the categorical features the dissimilarity measure was defined as the Euclidean distance between the probabilities for each of the categories present in the reference vector `$D_k(W_i, W_j) = \sqrt{\sum_{z=n}^k \sum_{m=1}^r (W_{iz}\[a^m\] - W_{jz}\[a^m\])}$`."
+      - Note: `$n$` is the number of continuous features, `$k$` is the number of categorical features, and `$r$` is the number of categories of the `$k_{th}$` feature.
   - Python package for SOMs: [MiniSom](https://github.com/JustGlowing/minisom).
-- The proposed tool is divided into two main views:
-  - "(...) the visualization of the transactions history (...)."
-  - "(...) the visualization of the transactions topology [through two SOM-based projections — matrix and force-directed graph]."
+- The proposed tool is divided into three views:
+  - "(...) the transaction history (...);"
+  - "(...) the transactions topology (...);"
+  - "(...) the transactions relations (...)."
+  - Note: The last two views are SOM-based projections — a matrix/grid and a force-directed graph, respectively.
+- Glyphs composed of three levels of visual detail/impact are used to distinguish transactions. Page 4 has a great figure illustrating the glyph elements.
+  - First level (three characteristics):
+    - "First, the analysts aim to distinguish online from business transactions. Then, it is necessary to analyse the transaction amount and whether it was considered as fraud or not."
+    - Color is used to highlight the characteristics of the first visual level:
+      - "(...)" different hues to the types of transaction: orange for business; blue for online."
+      - "(...) saturation to represent the amount, the brighter the colour, the higher the amount."
+      - "As small differences in saturation would be imperceptible, we defined three levels of saturation [(based on a threshold compared to the average amount)] to represent: low, medium, and high amounts."
+    - Shapes are also used "(...) to emphasise the distinction between transaction types — a circle for online transactions, and a rectangle for business."
+    - "To represent fraud, we place a red line above the main shape."
+  - Second level (two characteristics):
+    - "(...) inbound and outbound transactions; and new and old beneficiaries."
+  - Third level (two characteristics):
+    - "(...) the time characterisation of each transaction and the interface with which the transaction was made (...)."
 
 ---
 
