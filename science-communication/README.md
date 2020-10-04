@@ -32,7 +32,7 @@ Tuesday, September 29, 2020
 
 ### P2
 
-[`Communicating with Interactive Articles`](https://distill.pub/2020/communicating-with-interactive-articles/) | Fred Hohman, Matt Conlen, Jeffrey Heer, Duen Horng (Polo) Chau | 2020
+[`Communicating with Interactive Articles`](https://distill.pub/2020/communicating-with-interactive-articles/) | Fred Hohman, Matt Conlen, Jeffrey Heer, Duen Horng (Polo) Chau | 2020 | [Repo](https://github.com/distillpub/post--communicating-with-interactive-articles)
 
 Sunday, October 4, 2020
 
