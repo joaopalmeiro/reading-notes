@@ -32,5 +32,13 @@ Sunday, October 4, 2020
 **Quotes, notes, and takeaways**:
 
 - Interactive articles.
+- Possible domains:
+  - Research dissemination:
+    - Opportunity: "Remove research debt, onboard new researchers".
+    - Challenge: "No clear incentive structure for researchers".
+  - Journalism.
+  - Education.
+  - Policy and decision making:
+    - Challenge: "May require greater numeracy and graphicacy in audience".
 - "(...) while the technology to distribute our ideas has grown (...), the interfaces have remained largely the same."
 - "The most popular publishing platforms, for example WordPress and Medium, choose to prioritize social features and ease-of-use while limiting the ability for authors to communicate using the dynamic features of the web."
