@@ -118,7 +118,7 @@ Sunday, October 4, 2020
   - "Optimizing the Visual Presentation":
     - "(...) change the colors (...)."
     - "(...) change the visual encoding (...)."
-      - In one example, "the researchers used a diverging color palette to show temperature from low to high, but the journalist, in the edited version, changed it to a simpler sequential color scheme (...)."
+      - In one example, "(...) the researchers used a diverging color palette to show temperature from low to high, but the journalist, in the edited version, changed it to a simpler sequential color scheme (...)."
     - "(...) add a [double] visual encoding (...)."
     - "(...) add a visualization of data [(table)] (...)."
     - "(...) change orientation or ordering of parts of a figure, typically for aesthetic reasons."
