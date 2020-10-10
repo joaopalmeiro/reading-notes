@@ -17,7 +17,8 @@ The (bullet point) text enclosed in double quotation marks refers to quotes from
 
 ### BP1
 
-[`Case Study: The First Image of a Black Hole`](https://numpy.org/case-studies/blackhole-image/) | NumPy | 2020
+[`Case Study: The First Image of a Black Hole`](https://numpy.org/case-studies/blackhole-image/) | NumPy (
+Shaloo Shalini, Ross Barnowski, Inessa Pawson) | 2020 | [Repo](https://github.com/numpy/numpy.org/blob/master/content/en/case-studies/blackhole-image.md)
 
 Saturday, October 10, 2020
 
