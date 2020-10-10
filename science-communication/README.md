@@ -30,6 +30,7 @@ Saturday, October 10, 2020
 - "The standard astronomical file formats and time/coordinate transformations were handled by [Astropy](https://www.astropy.org/) while Matplotlib was used in visualizing data throughout the analysis pipeline, including the generation of the final image of the black hole."
 - pandas, SciPy, and Jupyter were also used.
 - [PyWavelets](https://pywavelets.readthedocs.io/en/latest/).
+- It is interesting to see that the collaboration _mindset_ also includes software.
 
 ---
 
