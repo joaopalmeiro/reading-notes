@@ -2,10 +2,36 @@
 
 ## Table of Contents
 
+- [Blog Posts](#blog-posts)
+  - [`Case Study: The First Image of a Black Hole`](#bp1)
 - [Papers/Articles](#papersarticles)
   - [`Cheerleader or watchdog?`](#p1)
   - [`Communicating with Interactive Articles`](#p2)
   - [`Translating Scientific Graphics for Public Audiences`](#p3)
+
+## Blog Posts
+
+The (bullet point) text enclosed in double quotation marks refers to quotes from the author(s) of the respective blog post.
+
+---
+
+### BP1
+
+[`Case Study: The First Image of a Black Hole`](https://numpy.org/case-studies/blackhole-image/) | NumPy | 2020
+
+Saturday, October 10, 2020
+
+**Quotes, notes, and takeaways**:
+
+- Challenging data processing/reduction pipeline (from petabytes to megabytes).
+- "(...) EHT [(Event Horizon Telescope )] generates over 350 Terabytes worth of observed data per day, stored on high-performance helium filled hard drives."
+- "The EHT collaboration met these [image reconstruction] challenges by having independent teams evaluate the data using both established and cutting-edge image reconstruction techniques to verify that the resulting images were consistent."
+- "(...) the `[eht-imaging](https://github.com/achael/eht-imaging)` Python package provides tools for simulating and performing image reconstruction on VLBI data. NumPy is at the core of array data processing (...)."
+- "The standard astronomical file formats and time/coordinate transformations were handled by [Astropy](https://www.astropy.org/) while Matplotlib was used in visualizing data throughout the analysis pipeline, including the generation of the final image of the black hole."
+- pandas, SciPy, and Jupyter were also used.
+- [PyWavelets](https://pywavelets.readthedocs.io/en/latest/).
+
+---
 
 ## Papers/Articles
 
