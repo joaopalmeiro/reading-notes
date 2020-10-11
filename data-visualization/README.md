@@ -16,6 +16,7 @@
   - [`B2: Bridging Code and Interactive Visualization in Computational Notebooks`](#p7)
   - [`VaBank: Visual Analytics for Banking Transactions`](#p8)
   - [`ViCE: Visual Counterfactual Explanations for Machine Learning Models`](#p9)
+  - [`TeleGam: Combining Visualization and Verbalization for Interpretable Machine Learning`](#p10)
 - [Talks](#talks)
   - [`The Python Data Visualization Landscape in 2020`](#t1)
 
@@ -472,6 +473,23 @@ Friday, October 2, 2020
 - Tech stack:
   - Flask (and Python).
   - D3 (and JavaScript).
+
+---
+
+### P10
+
+[`TeleGam: Combining Visualization and Verbalization for Interpretable Machine Learning`](https://fredhohman.com/papers/telegam) | Fred Hohman, Arjun Srinivasan, Steven Drucker | 2019 | [Repo](https://github.com/poloclub/telegam)
+
+Sunday, October 11, 2020
+
+**Quotes, notes, and takeaways**:
+
+- TeleGam is a model-specific tool (interface) for ML Interpretability that combines Data Visualization and text.
+- TeleGam is designed for generalized additive models (GAMs).
+- TeleGam works for (multi-class) classification and regression problems (in terms of the model's output, it uses the value predicted by the model).
+- TeleGam is a follow-up work for [Gamut](https://fredhohman.com/papers/gamut).
+- The evaluation consists of a (hypothetical) case study.
+- Use the Greek letter tau (`τ`) for user-defined threshold parameters (lowercase).
 
 ## Talks
 
