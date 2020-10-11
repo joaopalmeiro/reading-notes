@@ -488,8 +488,8 @@ Sunday, October 11, 2020
 - "(...) systems combining both visual and natural language explanations for ML models remain largely underexplored."
 - TeleGam is designed for generalized additive models (GAMs) and tabular data.
   - "A GAM provides both local instance explanations similar to linear regression, but also global feature explanations which other models lack."
-  - In this way, TeleGam supports the global and local paradigms.
-  - "GAMs are a generalization of linear models; GAMs replace linearmodel's slope coefficients with smooth, shape functions. In both models, the relationship between the target variable and the features is still additive (...)."
+  - In this way, TeleGam supports global and local paradigms.
+  - "GAMs are a generalization of linear models; GAMs replace linear model's slope coefficients with smooth, shape functions. In both models, the relationship between the target variable and the features is still additive (...)."
 - TeleGam works for (multi-class) classification and regression problems (in terms of the model's output, it uses the value predicted by the model).
 - TeleGam is a follow-up work for [Gamut](https://fredhohman.com/papers/gamut).
 - The evaluation consists of a (hypothetical) case study.
