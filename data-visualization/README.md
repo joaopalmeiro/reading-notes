@@ -529,13 +529,13 @@ Sunday, October 11, 2020
       - "To generate this verbalization, we first compute the ratio of each (...) [feature's GAM prediction contribution] with respect to the (...) [final instance] prediction. If the ratio is greater than a predefined threshold [(0.15 or 15% in this work)] (...), then that feature is included in the verbalization."
     - **Instance Comparison Summary**:
       - "(...) we first normalize both the total predictions and the individual feature contributions for all instances to [0−1] so the comparison can be made in context of the entire dataset."
-      - "Then, we check for the differences between the considered pair of normalized predictions and compare them to [two] preset thresholds [(0.25 and 0.75 in this work, respectively)] (...) to generate the verbalization [(the predictions will be too similar, too different, or moderately varying/similar)]."
+      - "Then, we check for the differences between the considered pair of normalized predictions and compare them to [two] preset thresholds [(0.25 and 0.75 in this work, respectively)] (...) to generate the verbalization [(the predictions will be similar, different, or moderately varying/similar)]."
       - "For the second half of the verbalization, a feature is considered accountable for the difference between the final predictions of two instances if for any feature (...) [the absolute difference in their normalized contributions is greater than a threshold (0.25 in this work)]."
     - The expected and predicted values are also shown for each selected instance.
     - Waterfall chart: "(...) the features are listed on the x-axis and the contribution to the prediction from each feature are represented by the height of the bars. The color of the bar indicates whether the contribution is positive (light gray) or negative (dark gray)."
     - "To enable visual comparison, TeleGam ensures the scale of the y-axis as well as the ordering of the features on the x-axis in both waterfall charts are normalized and consistent."
   - Two **accordion tabs to configure the thresholds** that parameterize the verbalizations.
-- A possible idea inspired by this paper is the use of logging capabilities in computational notebooks, for example, to share possible explanations, but also to share important notes about certain aspects of the charts, something that can be turned on and off.
+- A possible idea inspired by this paper is the use of logging capabilities in computational notebooks, for example, to share possible explanations, but also to share important notes about certain aspects of the charts (different scales on the vertical axes in two charts side by side, for example), something that can be turned on and off.
 
 ## Talks
 
