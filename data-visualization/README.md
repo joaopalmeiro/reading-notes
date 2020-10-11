@@ -536,6 +536,7 @@ Sunday, October 11, 2020
     - "To enable visual comparison, TeleGam ensures the scale of the y-axis as well as the ordering of the features on the x-axis in both waterfall charts are normalized and consistent."
   - Two **accordion tabs to configure the thresholds** that parameterize the verbalizations.
 - A possible idea inspired by this paper is the use of logging capabilities in computational notebooks, for example, to share possible explanations, but also to share important notes about certain aspects of the charts (different scales on the vertical axes in two charts side by side, for example), something that can be turned on and off.
+- TeleGam uses the `crosshair` cursor (`cursor` CSS property) when the mouse pointer is over a verbalization (more info [here](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor)). Personally, I think other valid options would be `context-menu`, `help`, `alias`, and `zoom-in`.
 
 ## Talks
 
