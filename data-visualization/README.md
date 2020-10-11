@@ -484,12 +484,43 @@ Sunday, October 11, 2020
 
 **Quotes, notes, and takeaways**:
 
-- TeleGam is a model-specific tool (interface) for ML Interpretability that combines Data Visualization and text.
-- TeleGam is designed for generalized additive models (GAMs).
+- TeleGam is a model-specific tool (interface) for ML Interpretability (_post hoc_) that combines (interactive) Data Visualization and (automatically generated) text.
+- "(...) systems combining both visual and natural language explanations for ML models remain largely underexplored."
+- TeleGam is designed for generalized additive models (GAMs) and tabular data.
+  - "A GAM provides both local instance explanations similar to linear regression, but also global feature explanations which other models lack."
+  - In this way, TeleGam supports the global and local paradigms.
+  - "GAMs are a generalization of linear models; GAMs replace linearmodel's slope coefficients with smooth, shape functions. In both models, the relationship between the target variable and the features is still additive (...)."
 - TeleGam works for (multi-class) classification and regression problems (in terms of the model's output, it uses the value predicted by the model).
 - TeleGam is a follow-up work for [Gamut](https://fredhohman.com/papers/gamut).
 - The evaluation consists of a (hypothetical) case study.
 - Use the Greek letter tau (`τ`) for user-defined threshold parameters (lowercase).
+- Target group: Data scientists.
+- "(...) textual descriptions, or verbalizations, can be a simple, yet effective way to communicate or summarize key aspects about a model, such as the overall trend in a model's predictions or comparisons between pairs of data instances."
+- Verbalizations (a.k.a. explanations) are generated from textual templates and threshold-based heuristics (adjustable by the user).
+- Explanation: "(...) collection of features from an interpretable domain that relate a data instance to a model's outcome."
+- "(...) often at the core of explainable ML, sits an inherent trade-off between the completeness and simplicity of an explanation [(its resolution, basically)]."
+- In my perspective, the authors do not take visualization as an answer _per se_ for the creation of effective and efficient interfaces, highlighting the (possibly) necessary visualization literacy and the ease of using text for certain cases:
+  - "(...) depending on the complexity of the model (e.g., number of features), interpreting these visualizations [for Model Evaluation] can be difficult and may require additional expertise."
+  - "(...) explanatory visualizations can also require high **graphicacy** (...) from the people that create and use them for model iteration and decision making."
+  - "While visualizations are powerful tools to help people better understand ML models, they may not be sufficient, and depending on a user's background, they can also be challenging to interpret."
+  - "Text is useful for providing short, approximate explanations that provide most of the necessary information to understand a prediction without the **cognitive burden of digesting a visualization**."
+  - "Natural language explanations could **complement** explanatory visualizations by helping people identify or verify inferences derived from a chart, identify prediction contributions they might have missed, or emphasize differences between predictions for multiple instances."
+- TeleGam "(...) support(s) both global and local paradigms, as well as offer(s) an interactive affordance [(a three-level slider)] that allows users to dynamically update the resolution of a verbalization [(all of them, to be more precise)] to tailor the level of detail desired in explanation."
+- To complement the point above, the interface has a slider that the user can adjust to obtain less or more detail of the available verbalizations.
+- ModelTracker and Squares are tools that leverage "(...) **unit visualizations** for interactive model debugging and performance analysis (...)."
+- Verbalizations and (feature and instance-level) charts are interactively linked (details-on-demand).
+- TeleGam adopts an "(...) _overview and detail strategy_ (...) for generating explanations where visualizations are used to give an overview while the verbalizations highlight specific features or trends."
+- Requirements:
+  - "Local instance explanations."
+  - "Instance explanation comparisons."
+  - "Feature importance."
+  - "Counterfactuals."
+- Interface:
+  - **Configuration area** to select the dataset, the resolution for the verbalizations, and whether the waterfall charts should be ordered by magnitude (absolute value) or not.
+  - "The **Global Model View** displays model feature-level verbalizations of GAM shape function charts that describe a feature's overall impact on model predictions."
+    - "[Hovering] (...) over sentences displays a tooltip (...) showing the GAM shape function line charts that present an overview of the feature values (on the x-axis) and model predictions (on the y-axis) corresponding to the features listed in the sentence."
+    - "These visualizations also enable a user to ask counterfactuals (...)."
+  - "The **Local Instance View** displays two [(or just one)] data instance's waterfall charts (...) that shows the cumulative sum of the contribution each feature has on the final prediction."
 
 ## Talks
 
