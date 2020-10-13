@@ -6,6 +6,7 @@
 
 - [Blog Posts](#blog-posts)
   - [`Introducing visx from Airbnb`](#bp1)
+  - [`Announcing the W&B Machine Learning Visualization IDE`](#bp2)
 - [Papers](#papers)
   - [`Truncating the Y-Axis: Threat or Menace?`](#p1)
   - [`Belief at first sight: Data visualization and the rationalization of seeing`](#p2)
@@ -59,6 +60,28 @@ Wednesday, September 23, 2020
 - "(...) existing React visualization libraries are often _high-level abstractions and optimized for ease of use_ (...) _at the expense of expressivity_. None offer the expressivity of D3 primitives and many don't allow for the optimization we want in production because computation, animations, state management, styles, and rendering are all encapsulated."
 - visx leverages D3 in some packages "(...) for math and layout calculations, and functionally mirror the underlying D3 package with a declarative React API (...)."
 - The authors will soon add screenshot/visual regression testing with [Happo](https://happo.io/).
+
+---
+
+### BP2
+
+[`Announcing the W&B Machine Learning Visualization IDE`](https://wandb.ai/wandb/posts/reports/Announcing-the-W-B-Machine-Learning-Visualization-IDE--VmlldzoyNjk3Nzg?s=15) | Shawn Lewis, Carey Phelps, Stacey Svetlichnaya, John Qian, Kyle Goyette, Tom Holmes | 2020
+
+Tuesday, October 13, 2020
+
+**Quotes, notes, and takeaways**:
+
+- An Visualization Development Environment (VDE) powered by Vega and Vega-Lite. It "(...) lets you define Vega specs and save them for reuse, all in the context of your actual data."
+- Targeted to "(...) model understanding".
+- Interesting chart for backpropagation through time.
+- 6 ready-to-use charts:
+  - Line chart.
+  - Scatterplot.
+  - Bar chart.
+  - Histogram.
+  - ROC curve.
+  - PR curve.
+- "The visualizations created with this tool are _decoupled from the underlying data they display_."
 
 ## Papers
 
