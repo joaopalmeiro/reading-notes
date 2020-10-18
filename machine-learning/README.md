@@ -13,9 +13,13 @@ The (bullet point) text enclosed in double quotation marks refers to quotes from
 
 ### P1
 
-[`The Hardware Lottery`](https://arxiv.org/abs/2009.06489) | Sara Hooker | 2020
+[`The Hardware Lottery`](https://arxiv.org/abs/2009.06489) | Sara Hooker | 2020 | [Mind map](https://miro.com/app/board/o9J_kiSTlaI=/)
 
 Monday, October 5, 2020
+
+**Mind map**:
+
+![Mind map for "The Hardware Lottery"](../assets/hw_lottery.jpg)
 
 **Quotes, notes, and takeaways**:
 
@@ -41,6 +45,7 @@ Monday, October 5, 2020
 - "To improve efficiency, there is a shift from task agnostic hardware like CPUs [(from the _general purpose era_ powered by Moore’s law and Dennard scaling)] to domain specialized hardware that tailor the design to make certain tasks more efficient."
 - "Hardware is only economically viable if the lifetime of the use case lasts more than three years (...). Betting on ideas which have longevity is a key consideration for hardware developers. Thus, co-design effort has focused almost entirely on optimizing an older generation of models [(_traditional_ Deep Learning)] with known commercial use cases [(priority)]."
   - "There are also high risk efforts to explore the development of transistors using new materials (...)."
+  - "The bottleneck will continue to be funding hardware for use cases that are not immediately commercially viable."
 - "(...) specialized hardware makes sense if you think that future breakthroughs depend upon pairing deep neural networks with ever increasing amounts of data and computation."
 - Comparison with the **brain**:
   - "Human brains despite their complexity remain extremely energy efficient. Our brain has over 85 billion neurons but runs on the energy equivalent of an electric shaver (...)."
