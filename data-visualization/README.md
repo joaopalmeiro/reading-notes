@@ -612,6 +612,9 @@ Sunday, December 13, 2020
           - Double encoding: "To visually rank the instances by their 'importance', the opacity and vertical position of each glyph encode one of the calculated numerical difficulty measures (...)."
   - _Tabular View_:
       - "By default, only instances with at least one incorrect classification are shown (...)."
+      - "One column shows the class predictions over time as a colored heatmap (...) using a categorical color scheme to encode the sequence of predicted classes."
+      - "An additional column shows a histogram of correct, incorrect, and other predictions (...) "incorrect" refers to predictions of wrong classes from among the selected subset of classes, while 'other' refers to wrong predictions of non-selected classes."
+      - "The encodings \[(chart types)\] in both of these columns can be switched between time-dependent heatmaps and summarizing histograms."
 - User tasks:
     - Instance-focused tasks:
         - "Find _difficult_ \[(to classify)\] instances"
@@ -625,7 +628,10 @@ Sunday, December 13, 2020
 classes at a given epoch"
 - "(...) a temporal drill-down to the instance level can help model developers to distinguish stable (mis)classification patterns from stochastic effects caused by the partially random training mechanism."
 - InstanceFlow is inspired by Squares (although in Squares only the final predictions of the model can be analyzed).
-- Temporal difficulty measures/metrics:
+- Instance-based temporal difficulty measures/metrics:
+    - "Let $m$ be the total number of instances, $n$ the number of classes, and $k$ the number of selected epochs. Let $C(i)$ be the actual class of instance $i$ and $P(i, j)$ the prediction for instance $i$ in epoch $j$."
+    - Misclassification score $S$ (fraction of epochs in which an instance was assigned to the wrong class): $S(i) = (1/k) \sum_{j=1}^{k} [P(i, j) \neq C(i)]$.
+    - 
 
 ## Talks
 
