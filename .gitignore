@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 
 formatter.py
+data-visualization/.ztr-directory

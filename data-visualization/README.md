@@ -19,6 +19,7 @@
   - [`ViCE: Visual Counterfactual Explanations for Machine Learning Models`](#p9)
   - [`TeleGam: Combining Visualization and Verbalization for Interpretable Machine Learning`](#p10)
   - [`DALEX: Explainers for Complex Predictive Models in R` (short version)](#p11)
+  - [`InstanceFlow: Visualizing the Evolution of Classifier Confusion on the Instance Level`](#p12)
 - [Talks](#talks)
   - [`The Python Data Visualization Landscape in 2020`](#t1)
 
@@ -576,6 +577,55 @@ Saturday, October 17, 2020
   - R package.
   - Model-agnostic.
   - Single model or multiple models.
+
+### P12
+
+[`InstanceFlow: Visualizing the Evolution of Classifier Confusion on the Instance Level`](https://arxiv.org/abs/2007.11353) | Michael Pühringer, Andreas Hinterreiter, Marc Streit | 2020 | [Repo](https://github.com/puehringer/InstanceFlow)
+
+Sunday, December 13, 2020
+
+**Quotes, notes, and takeaways**:
+
+- InstanceFlow is "(...) a novel dual-view visualization tool that allows users to analyze the learning behavior of classifiers over time on the instance-level \[(and class-level)\]."
+- Characteristics:
+  - Post-hoc model evaluation.
+  - Training phase.
+  - Temporal (epoch-based) performance analysis.
+  - Deep Learning tool.
+  - Model-agnostic tool.
+  - Single model.
+- Target group: data scientists (_model developers and builders_).
+- InstanceFlow consists of two main linked components (both support different levels of granularity):
+  - _Flow View_/Sankey diagram: 
+      - To visualize "(...) the flow of instances throughout epochs, with on-demand detailed \[(squared or rectangular)\] glyphs and traces for individual instances."
+      - "In its basic form, (...) visualizes 'class changers' in a Sankey diagram. _Distribution \[Stacked\] Bar Charts_ emphasize the fraction of correctly versus incorrectly classified instances. At the finest granularity, _Instance Glyphs_ encode each individual sample, with _Instance Traces_ connecting the instances to reveal their classification history (...)."
+      - X-axis: epoch.
+      - Y-axis: predicted classes.
+      - "The user selects classes of interest, and each class is assigned to a vertical region in the Sankey diagram. All non-selected classes are aggregated as 'Other' and also assigned to a dedicated vertical region."
+      - The epochs can be selected using a slider range.
+      - Tooltip when hovering.
+      - "Clicking on a section of the Sankey diagram selects those instances."
+      - Instance Glyphs:
+          - "The color of the Instance Glyphs denotes the actual class of the instances (...)."
+          - "The shape \[(as well as the sub-bars of the Distribution Bar Charts)\] indicates if the instance predictions are temporally stable, coming from a different class, leaving for a different class, or coming from and leaving for different classes."
+          - Double encoding: "The horizontal positions encode the same information, with glyphs for incoming instances placed at the left, outgoing ones at the right, and stable ones at the center."
+          - Double encoding: "To visually rank the instances by their 'importance', the opacity and vertical position of each glyph encode one of the calculated numerical difficulty measures (...)."
+  - _Tabular View_:
+      - "By default, only instances with at least one incorrect classification are shown (...)."
+- User tasks:
+    - Instance-focused tasks:
+        - "Find _difficult_ \[(to classify)\] instances"
+        - "Trace an instance's _classification history_"
+        - "Analyze if an instance visits _many_ or _few_ classes"
+        - "Find instances _oscillating_ between classes"
+    - Epoch-focused tasks:
+        - "Assess _class distributions_ for a given epoch"
+        - "Find momentarily _wrong_ and/or _correct_ instances"
+        - "Find instances _staying_ in their class or _moving_ between
+classes at a given epoch"
+- "(...) a temporal drill-down to the instance level can help model developers to distinguish stable (mis)classification patterns from stochastic effects caused by the partially random training mechanism."
+- InstanceFlow is inspired by Squares (although in Squares only the final predictions of the model can be analyzed).
+- Temporal difficulty measures/metrics:
 
 ## Talks
 
