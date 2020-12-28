@@ -40,6 +40,17 @@ These notes are based on Ethan Smith's "[PEP 561 -- Distributing and Packaging T
 - A sample package with inline types is available [here](https://github.com/ethanhs/pep-561).
 - A sample stub-only package is available [here](https://github.com/ethanhs/stub-package).
 
+These notes are based on Carlos Villavicencio's "[Did you know it's possible to avoid bugs only by using types? Meet "Type Driven Development", a strong approach used to get rid of common bugs in the code and it can be used in Python](https://2020.pycon.co/ponencias/14/)" talk:
+
+- Company: [Stack Builders](https://www.stackbuilders.com/).
+- Type-Driven Development.
+- _Duck_ typing emoji: 🦆.
+- Static type checker for Python: [`mypy`](http://mypy-lang.org/).
+- Emoji for _primitive_ types: 🦕 (sauropod).
+- Carlos showed some examples of [type aliases](https://docs.python.org/3/library/typing.html#type-aliases).
+- It is possible to use a literal ellipsis (`...`) if the call signature of a `Callable` is not yet known, for example.
+- The annotations are stored in the `__annotations__` dictionary.
+
 ## Commands
 
 - `python <script>.py 2> <log>.log`: `2>` is used here to redirect the standard error stream to a file.
