@@ -9,6 +9,7 @@
   - [`Communicating with Interactive Articles`](#p2)
   - [`Translating Scientific Graphics for Public Audiences`](#p3)
   - [`Ethics and Statistics: The AAA Tranche of Subprime Science`](#p4)
+  - [`A Field of Expertise, the Organization, or Science Itself? Scientists’ Perception of Representing Research in Public Communication`](#p5)
 
 ## Blog Posts
 
@@ -199,3 +200,16 @@ Sunday, October 11, 2020
 - To keep in mind: "Documenting the details of research studies, including all the relevant decisions in the design and the data analysis, is important for being able to reproduce, evaluate, and replicate results."
 - "(...) academic researchers may feel freer to inflate the importance of their findings because they are removed from decisionmaking."
 - On the Twitter thread where I found this article ([shared by Jessica Hullman](https://twitter.com/JessicaHullman/status/1315009954831650816)), there is a very interesting [comment from Enrico Bertini](https://twitter.com/FILWD/status/1314625884599529474) about the publishers: "**They sell a brand.** It's like asking why do you need a one thousand bucks Prada shirt for something you can buy at \$5."
+
+---
+
+### P5
+
+[`A Field of Expertise, the Organization, or Science Itself? Scientists’ Perception of Representing Research in Public Communication`](https://journals.sagepub.com/doi/10.1177/1075547013487513) | Maja Horst | 2013
+
+Wednesday, December 30, 2020
+
+**Quotes, notes, and takeaways**:
+
+- "When scientists communicate publicly, they do not just disseminate knowledge, they also represent a particular sense making about what science, scientists, and scientific organizations are."
+- "One study found that previous behavior is the most important predictor for whether scientists are likely to engage in public communication (Poliakoff & Webb, 2007). This implies that scientists either engage in science communication on a **continuous basis** or they **do not do it at all**."
