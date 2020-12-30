@@ -213,3 +213,4 @@ Wednesday, December 30, 2020
 
 - "When scientists communicate publicly, they do not just disseminate knowledge, they also represent a particular sense making about what science, scientists, and scientific organizations are."
 - "One study found that previous behavior is the most important predictor for whether scientists are likely to engage in public communication (Poliakoff & Webb, 2007). This implies that scientists either engage in science communication on a **continuous basis** or they **do not do it at all**."
+- "Just as **top leaders of large companies** often become the central focus point for sense making about that company (Guthey, Clark, & Jackson, 2009), **top scientists** often symbolize science and its organizations in public communication."
