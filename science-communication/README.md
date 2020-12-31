@@ -212,10 +212,9 @@ Wednesday, December 30, 2020
 **Quotes, notes, and takeaways**:
 
 - Modes of representation (typology):
-  - Expert (field of expertise). It is the most widespread.
+  - Expert (field of expertise).
   - Research Manager (research organization).
   - Guardian of Science (institution of science).
-  - "In practice, (...) scientists will adopt these modes of representing to a larger or lesser degree and in various combinations."
 - Research design:
   - Qualitative.
   - Semi-structured interviews.
@@ -224,6 +223,7 @@ Wednesday, December 30, 2020
 - "One study found that previous behavior is the most important predictor for whether scientists are likely to engage in public communication (Poliakoff & Webb, 2007). This implies that scientists either engage in science communication on a **continuous basis** or they **do not do it at all**."
 - "Just as **top leaders of large companies** often become the central focus point for sense making about that company (Guthey, Clark, & Jackson, 2009), **top scientists** often symbolize science and its organizations in public communication."
 - "Approximately one half of the interviewees seemed to move between these roles depending on the context. The other half of the interviewees talked primarily about one of the roles, but they also occasionally said things that could be ascribed to a secondary role."
+  - "In practice, (...) scientists will adopt these modes of representing to a larger or lesser degree and in various combinations."
 - **Field of expertise**:
   - The most common mode of representation.
   - "(...) the interviewee does not speak on behalf of his university or colleagues but only answers to himself for what he says."
@@ -246,5 +246,5 @@ Wednesday, December 30, 2020
   - "Communication efforts (...) motivated by a wish to help citizens understand and appreciate science in general (...)."
   - "(...) this mode of representing science as an institution is found in interviews with senior scientists at an advanced stage in their career."
 - "(...) Expert and Guardian coconstruct science as a collegial activity that makes the scientific organizations much less visible than the role of Research Managers, where the organizations are central for the sense making about what science is."
-- "Neither Guardians of Science nor Experts, however, have fixed ideas about how younger researchers are supposed to learn to communicate."
+- "Neither Guardians of Science nor Experts (...) have fixed ideas about how younger researchers are supposed to learn to communicate."
 - Punch line: "It seems that scientists learn to deal with journalists, companies, publics, and policy makers in much the same way as they learn to deal with administrative staff, travel budgets, library subscriptions, and coffee machines."
