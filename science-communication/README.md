@@ -10,6 +10,7 @@
   - [`Translating Scientific Graphics for Public Audiences`](#p3)
   - [`Ethics and Statistics: The AAA Tranche of Subprime Science`](#p4)
   - [`A Field of Expertise, the Organization, or Science Itself? Scientists’ Perception of Representing Research in Public Communication`](#p5)
+  - [`Communicating through humour: A project of stand-up comedy about science`](#p6)
 
 ## Blog Posts
 
@@ -248,3 +249,13 @@ Wednesday, December 30, 2020
 - "(...) Expert and Guardian coconstruct science as a collegial activity that makes the scientific organizations much less visible than the role of Research Managers, where the organizations are central for the sense making about what science is."
 - "Neither Guardians of Science nor Experts (...) have fixed ideas about how younger researchers are supposed to learn to communicate."
 - Punch line: "It seems that scientists learn to deal with journalists, companies, publics, and policy makers in much the same way as they learn to deal with administrative staff, travel budgets, library subscriptions, and coffee machines."
+
+---
+
+### P6
+
+[`Communicating through humour: A project of stand-up comedy about science`](https://journals.sagepub.com/doi/10.1177/0963662513511175) | Bruno Pinto, David Marçal, Sofia G. Vaz | 2013 | [Video](https://youtu.be/tanT2AfMhA8) | [Supplementary material](https://journals.sagepub.com/doi/suppl/10.1177/0963662513511175/suppl_file/PUS511175_APPENDIX.pdf)
+
+Wednesday, January 6, 2021
+
+**Quotes, notes, and takeaways**:
