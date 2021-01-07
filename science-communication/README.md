@@ -276,25 +276,25 @@ Wednesday, January 6, 2021
   - Adult audience.
   - The authors obtained (quantitative) feedback from the audience (through a closed-ended questionnaire) only at **one** of the shows, more precisely from 35 out of 70 audience members. "(...) the **audience**, most of whom were young adults, and held a higher education degree, were satisfied with the show."
   - This show "(...) was done at a venue directed towards science communication [(Museu da Ciência, a science museum in Coimbra)] (...)."
-  - Age:
-    - `18–25` years: 9.
-    - `26–40` years: 11.
-    - `41–60` years: 9.
-    - `>60` years: 6.
+  - Age (years):
+    - `18–25`: 9.
+    - `26–40`: 11.
+    - `41–60`: 9.
+    - `>60`: 6.
   - 24 women and 11 men.
   - Professional situation:
-    - _Employed_: 22.
-    - _Unemployed_: 1.
-    - _Student_: 7.
-    - _Retired_: 5.
-    - _Housewife_: 0.
+    - `Employed`: 22.
+    - `Unemployed`: 1.
+    - `Student`: 7.
+    - `Retired`: 5.
+    - `Housewife`: 0.
   - Education level completed:
-    – _Primary education_: 0.
-    - _Basic education_: 0.
-    - _Secondary education_: 2.
-    - _BSc level_: 9.
-    - _MSc level_: 16.
-    - _PhD level_: 8.
+    - `Primary education`: 0.
+    - `Basic education`: 0.
+    - `Secondary education`: 2.
+    - `BSc level`: 9.
+    - `MSc level`: 16.
+    - `PhD level`: 8.
 - "(...) some \[participants\] mentioned that they would only encourage peers who were already interested in science communication."
 - "In relation to the drawbacks of using this format, several respondents said that the clarity and simplicity demanded by a science stand-up comedy act aimed at the general public could also be a limitation. (...) Concern about passing on information that was considered scientifically correct in a clear way through humour was also mentioned."
 - One participant "(...) thinks that this form of science communication is effective in attracting audiences who already have an interest in science, but **may not be able to capture the attention of all the lay public**."
