@@ -7,6 +7,7 @@
 - [Blog Posts](#blog-posts)
   - [`Introducing visx from Airbnb`](#bp1)
   - [`Announcing the W&B Machine Learning Visualization IDE`](#bp2)
+  - [`The Stellar Chart: An Elegant Alternative to Radar Charts`](#bp3)
 - [Papers](#papers)
   - [`Truncating the Y-Axis: Threat or Menace?`](#p1)
   - [`Belief at first sight: Data visualization and the rationalization of seeing`](#p2)
@@ -84,6 +85,22 @@ Tuesday, October 13, 2020
   - ROC curve.
   - PR curve.
 - "The visualizations created with this tool are _decoupled from the underlying data they display_."
+
+---
+
+### BP3
+
+[`The Stellar Chart: An Elegant Alternative to Radar Charts`](https://medium.com/nightingale/the-stellar-chart-an-elegant-alternative-to-radar-charts-ae6a6931a28e) | Alexandre Morin-Chassé | 2020
+
+Friday, January 8, 2021
+
+**Quotes, notes, and takeaways**:
+
+- Stellar chart, an alternative to the radar chart.
+- "Data visualization's primary objective is to present statistical information in a more accessible fashion than classic number listings (i.e. tables)."
+- On a radar chart, "(...) the only piece of information that is fully data-driven is the distance between each angle and the center of the radar. (...) the rest results from complex interactions between the underlying data and a subjective, editorial decision: the ordering of categories around the circle."
+- "In short, radar charts contradict one of the most basic data visualization rules: don't connect categories with lines."
+- An alternative name for the radial bar/column chart could be _asterisk chart_.
 
 ## Papers
 
