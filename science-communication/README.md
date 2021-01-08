@@ -11,6 +11,7 @@
   - [`Ethics and Statistics: The AAA Tranche of Subprime Science`](#p4)
   - [`A Field of Expertise, the Organization, or Science Itself? Scientists’ Perception of Representing Research in Public Communication`](#p5)
   - [`Communicating through humour: A project of stand-up comedy about science`](#p6)
+  - [`Why did the proton cross the road? Humour and science communication`](#p7)
 
 ## Blog Posts
 
@@ -302,3 +303,13 @@ Wednesday, January 6, 2021
 - "The project was open to all the local scientific community but did not attract researchers in more advanced stages of their careers."
 - "The format of stand-up comedy on science could be classified as a deficit-like communication (or diffusionist model), since it is mainly a one-way communication in which scientific knowledge is popularized (...). However, it has the advantage of establishing a close relationship with the audiences, which may be explained by the use of humour, informal language and generally talking to the audience as equals."
 - Quote: "It should also be said that simplicity and informality should not be confused with lack of accuracy."
+
+---
+
+### P7
+
+[`Why did the proton cross the road? Humour and science communication`](https://journals.sagepub.com/doi/10.1177/0963662514546299) | Hauke Riesch | 2014
+
+Thursday, January 7, 2021
+
+**Quotes, notes, and takeaways**:
