@@ -1,6 +1,6 @@
-# cheatsheets
+# reading-notes
 
-:page_with_curl: A collection of documents that can act as cheatsheets.
+:page_with_curl: A collection of personal reading notes from different topics.
 
 ## Table of Contents
 
