@@ -4,7 +4,7 @@
 
 - [Papers/Articles](#papersarticles)
   - [`The Hardware Lottery`](#p1)
-  - [`On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜](#p2)
+  - [`On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜`](#p2)
 
 ## Papers
 
@@ -58,10 +58,10 @@ Monday, October 5, 2020
 
 ### P2
 
-[`On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜](http://faculty.washington.edu/ebender/papers/Stochastic_Parrots.pdf) | Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Shmargaret Shmitchell | 2021
+[`On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜`](http://faculty.washington.edu/ebender/papers/Stochastic_Parrots.pdf) | Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Shmargaret Shmitchell | 2021
 
 Sunday, January 24, 2021
 
 **Quotes, notes, and takeaways**:
 
-- Stochastic parrots: Models repeating and manifesting issues in the data ([source](https://gist.github.com/yoavg/9fc9be2f98b47c189a513573d902fb27)).
+- Stochastic parrots: models repeating and manifesting issues in the data ([source](https://gist.github.com/yoavg/9fc9be2f98b47c189a513573d902fb27)).
