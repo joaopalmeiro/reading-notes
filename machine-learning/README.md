@@ -4,6 +4,7 @@
 
 - [Papers/Articles](#papersarticles)
   - [`The Hardware Lottery`](#p1)
+  - [`On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜](#p2)
 
 ## Papers
 
@@ -52,3 +53,15 @@ Monday, October 5, 2020
   - "While algorithms like deep neural networks rely on global updates in order to learn a useful representation, our brains do not. Our own intelligence relies on decentralized local updates which surface a global signal in ways that are still not well understood (...)."
   - The brain needs far fewer labeled examples.
   - "(...) evidence suggests that the brain does not perform a full forward and backward pass for all inputs. Instead, the brain simulates what inputs are expected against incoming sensory data. Based upon the certainty of the match, the brain simply infills. What we see is largely virtual reality computed from memory (...)."
+
+---
+
+### P2
+
+[`On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜](http://faculty.washington.edu/ebender/papers/Stochastic_Parrots.pdf) | Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Shmargaret Shmitchell | 2021
+
+Sunday, January 24, 2021
+
+**Quotes, notes, and takeaways**:
+
+- Stochastic parrots: Models repeating and manifesting issues in the data ([source](https://gist.github.com/yoavg/9fc9be2f98b47c189a513573d902fb27)).
