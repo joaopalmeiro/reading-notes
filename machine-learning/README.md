@@ -12,6 +12,8 @@
 
 ### MIT 6.S191: Introduction to Deep Learning
 
+[Website](http://introtodeeplearning.com/).
+
 #### Lecture 1: Intro to Deep Learning
 
 - Deep Learning: extract patterns/features from (raw) data using neural networks.
@@ -28,7 +30,7 @@
 - Loss optimization: "We want to find the network weights that achieve the lowest loss".
 - Gradient descent:
   - "The gradient tells us the direction of highest or steepest ascent (...) tells us which way is up."
-  - "Take small step in opposite direction of gradient".
+  - "Take a small step in the opposite direction of gradient".
 - "Computing the gradient of our loss $J(W)$ with respect to one of the weights, in this case just $W_2$, (...) tells us how much a small change in $W_2$ is going to affect our loss $J(W)$."
 - Learning rate:
   - "(...) tells us how large should each step we take in practice be with regards to that gradient."
@@ -43,7 +45,9 @@
   - Middle ground: "Pick batch of $B$ data points".
 - Regularization:
   - "Technique that constrains our optimization problem to discourage complex models".
-  - Dropout: "During training, randomly set some activations to 0".
+  - Dropout:
+    - "During training, randomly set some activations to 0".
+    - "Forces network to not rely on any 1 node".
 
 ---
 
