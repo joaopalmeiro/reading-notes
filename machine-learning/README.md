@@ -2,9 +2,21 @@
 
 ## Table of Contents
 
+- [Courses](#courses)
+  - [MIT 6.S191: Introduction to Deep Learning]()
 - [Papers/Articles](#papersarticles)
   - [`The Hardware Lottery`](#p1)
   - [`On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜`](#p2)
+
+## Courses
+
+### MIT 6.S191: Introduction to Deep Learning
+
+#### Lecture 1: Intro to Deep Learning
+
+- Deep Learning: extract patterns/features from (raw) data using neural networks.
+
+---
 
 ## Papers
 
@@ -65,3 +77,4 @@ Sunday, January 24, 2021
 **Quotes, notes, and takeaways**:
 
 - Stochastic parrots: models repeating and manifesting issues in the data ([source](https://gist.github.com/yoavg/9fc9be2f98b47c189a513573d902fb27)).
+- Emoji in the title for reinforcement.
