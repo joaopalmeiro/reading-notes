@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Courses](#courses)
-  - [MIT 6.S191: Introduction to Deep Learning]()
+  - [MIT 6.S191: Introduction to Deep Learning](#mit-6s191-introduction-to-deep-learning)
 - [Papers/Articles](#papersarticles)
   - [`The Hardware Lottery`](#p1)
   - [`On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜`](#p2)
@@ -15,6 +15,35 @@
 #### Lecture 1: Intro to Deep Learning
 
 - Deep Learning: extract patterns/features from (raw) data using neural networks.
+- "The key idea of Deep Learning is to learn these features directly from data in a hierarchical manner."
+- Bias term: "(...) allows you to shift your activation function left or right."
+- "The purpose of activation functions is to introduce non-linearities into the network". "(...) allows us to actually deal with non-linear data."
+- "Linear activation functions produce linear decisions no matter the network size".
+- Perceptron (3 steps):
+  1. Dot product of inputs and weights.
+  2. Add a bias.
+  3. Apply non-linearity.
+- Fully-connected layer or dense layer.
+- Empirical loss, objective function, cost function, or empirical risk. It "(...) measures the total loss over our entire dataset".
+- Loss optimization: "We want to find the network weights that achieve the lowest loss".
+- Gradient descent:
+  - "The gradient tells us the direction of highest or steepest ascent (...) tells us which way is up."
+  - "Take small step in opposite direction of gradient".
+- "Computing the gradient of our loss $J(W)$ with respect to one of the weights, in this case just $W_2$, (...) tells us how much a small change in $W_2$ is going to affect our loss $J(W)$."
+- Learning rate:
+  - "(...) tells us how large should each step we take in practice be with regards to that gradient."
+  - "Small learning rate converges slowly and gets stuck in false local minima".
+  - "Large learning rates overshoot, become unstable and diverge".
+  - "Stable learning rates converge smoothly and avoid local minima".
+  - Adaptive learning rates: "Learning rates are no longer fixed".
+- "The gradient tells us the direction but it doesn't necessarily tell us the magnitude of the direction. So, the learning rate can tell us actually a scale of how much we want to trust that gradient and step in the direction of that gradient."
+- Stochastic gradient descent:
+  - "Pick single data point $i$".
+  - "Easy to compute but very noisy (stochastic)".
+  - Middle ground: "Pick batch of $B$ data points".
+- Regularization:
+  - "Technique that constrains our optimization problem to discourage complex models".
+  - Dropout: "During training, randomly set some activations to 0".
 
 ---
 
