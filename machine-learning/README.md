@@ -49,6 +49,15 @@
     - "During training, randomly set some activations to 0".
     - "Forces network to not rely on any 1 node".
 
+#### Lecture 2: Deep Sequence Modeling
+
+- Applications:
+  - "One to One: Binary Classification".
+  - "Many to One: Sentiment Classification".
+  - "One to Many: Image Captioning".
+  - "Many to Many: Machine Translation".
+- "Neurons with Recurrence". The output will depend not only on the input but also on the past memory. "The cell state (...) depends on the current input and (...) on the prior cell states."
+
 ---
 
 ## Papers
