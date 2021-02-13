@@ -52,11 +52,38 @@
 #### Lecture 2: Deep Sequence Modeling
 
 - Applications:
-  - "One to One: Binary Classification".
+  - "One to One: Binary Classification". "(...) from a static input to a static output".
   - "Many to One: Sentiment Classification".
   - "One to Many: Image Captioning".
   - "Many to Many: Machine Translation".
 - "Neurons with Recurrence". The output will depend not only on the input but also on the past memory. "The cell state (...) depends on the current input and (...) on the prior cell states."
+- "RNNs have a state, $h_t$, that is updated at each time step as a sequence is processed".
+- "Re-use the same weight matrices at every time step".
+- To model sequences (design criteria):
+  1. "Handle variable-length sequences".
+  2. "Track long-term dependencies".
+  3. "Maintain information about order".
+  4. "Share parameters across the sequence". "(...) we can achieve both points 2 and 3 by using weight sharing (...)".
+- "Embedding: transform indexes [(a set of identifiers for objects)] into a vector of fixed size."
+- Backpropagation:
+  1. "Take the derivative (gradient) of the loss with respect to each parameter".
+  2. "Shift parameters \[(weights)\] in order to minimize loss".
+- "Why are vanishing gradients a problem?"
+  - "Multiply many small numbers together".
+  - "Errors due to further back time steps have smaller and smaller gradients".
+  - "Bias parameters to capture short-term dependencies".
+- LSTMs:
+  - "LSTM modules contain computational blocks that control information flow".
+  - "Information is added or removed through structures called gates".
+  - "Gates optionally let information through, for example via a sigmoid neural net layer and pointwise multiplication". "(...) because we have the sigmoid activation function, this is going to force anything that passes through that gate to be between 0 and 1. So, you can (...) think of this as modulating and capturing how much of the input should be passed through — between nothing, 0, or everything, 1 (...)".
+  - "Maintain a separate cell state from what is outputted ($c_t$)".
+  - "(...) it's really this maintenance of the separate cell state $c_t$ which allows for backpropagation through time with uninterrupted gradient flow (...)".
+- "How do LSTMs work?"
+  1. "Forget". "LSTMs forget irrelevant parts of the previous state".
+  2. "Store". "LSTMs store relevant new information [(from current input)] into the cell state".
+  3. "Update". "LSTMs selectively update cell state values". "(...) by these gatewise operations".
+  4. "Output". "The output gate controls what information is sent to the next time step". In other words, "Output gate returns a filtered version of the cell state".
+- "Attention mechanisms (...) provide learnable memory access".
 
 ---
 
