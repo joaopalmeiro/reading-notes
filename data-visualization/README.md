@@ -21,6 +21,7 @@
   - [`TeleGam: Combining Visualization and Verbalization for Interpretable Machine Learning`](#p10)
   - [`DALEX: Explainers for Complex Predictive Models in R` (short version)](#p11)
   - [`InstanceFlow: Visualizing the Evolution of Classifier Confusion on the Instance Level`](#p12)
+  - [`At a Glance: Pixel Approximate Entropy as a Measure of Line Chart Complexity`](#p13)
 - [Talks](#talks)
   - [`The Python Data Visualization Landscape in 2020`](#t1)
 
@@ -595,6 +596,8 @@ Saturday, October 17, 2020
   - Model-agnostic.
   - Single model or multiple models.
 
+---
+
 ### P12
 
 [`InstanceFlow: Visualizing the Evolution of Classifier Confusion on the Instance Level`](https://arxiv.org/abs/2007.11353) | Michael Pühringer, Andreas Hinterreiter, Marc Streit | 2020 | [Repo](https://github.com/puehringer/InstanceFlow)
@@ -649,6 +652,20 @@ Sunday, December 13, 2020
   - $2.\downarrow_{9}^{1}$
   - $1.\downarrow_{A}^{Z}$
   - $2.\downarrow_{Z}^{A}$
+
+---
+
+### P13
+
+[`At a Glance: Pixel Approximate Entropy as a Measure of Line Chart Complexity`](https://arxiv.org/abs/1811.03180) | Gabriel Ryan, Abigail Mosca, Remco Chang, Eugene Wu | 2018 | [Repo](https://github.com/cudbg/pae)
+
+Saturday, February 27, 2021
+
+**Quotes, notes, and takeaways**:
+
+- Pixel Approximate Entropy (PAE).
+
+---
 
 ## Talks
 
