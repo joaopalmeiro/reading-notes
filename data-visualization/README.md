@@ -686,9 +686,22 @@ Saturday, February 27, 2021
   - "There is a statistically significant correlation between PAE and the amount of noise added to the chart."
     - Yes.
   - "PAE is an effective measure of perceived complexity, such that there is a statistically significant correlation between participants' perception of complexity and the line chart's PAE."
+    - "The binomial logistic regression shows that for synthetic and real data PAE is significantly associated with what charts participants select as most or least complex."
+    - "For synthetic data, we find that underlying base function is significantly associated with what charts participants select as most or least complex."
+    - "(...) small differences in PAE are easier to spot in charts with lower PAE than with higher PAE."
   - "Varying chart PAE affects participants' ability to perform the visual task of identifying changes in a line chart."
+    - "Masking [(pause time)] is used to interrupt the perceptual processing so that user responses are due to cognitive, rather than low-level perceptual pattern matching."
+    - "(...) initial chart's PAE, magnitude and sign of (...) [PAE difference], and chart type have an effect on participant's accuracy in identifying the initial chart in the gallery."
+    - "(...) the sign of (...) [PAE difference] affects task accuracy. (...) participants are more accurate when the change is positive than negative. (...) As the magnitude of the PAE difference increases, the accuracy for both signs increase, however the bias also persists."
+    - "(...) clear trend towards 50% accuracy (random guess) as the difference in PAE between the two charts decreases, irrespective of other conditions."
+    - "(...) as the initial PAE increases (the chart is more complex), so too does the necessary change in PAE in order to accurately differentiate the charts."
+    - "(...) given two charts, participants have a systematic bias towards choosing the chart with lower PAE. We do not have an explanation of why this might be, but hypothesize that it might be because the lower PAE charts appear closer to the 'shape envelope' of the initial chart, especially when viewed at a glance."
   - "Varying chart PAE affects participants' ability to perform the visual task of identifying the base function of a chart."
+    - "(...) users were able to correctly identify the underlying shape of a chart with close to 100% accuracy when the PAE (x-axis) of the chart, with the added noise, is low."
+    - "(...) user accuracy drops to ~70% for a PAE of 0.8, and to ~50% for a PAE of 1.2. Further, we find that answer certainty consistently decreases as the PAE increases."
   - "Reducing the amount of time participants are given to study line charts, and the PAE of a line chart 'at a glance' affects comparison accuracy on charts."
+    - "Glance time (...) was significantly correlated with accuracy (...)."
+- "(...) PAE could inform aspect ratio selection methods to select a ratio that takes visual complexity into account."
 
 ---
 
