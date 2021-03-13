@@ -12,7 +12,9 @@ These notes are based on Real Python's "[Getting the Most Out of a Python Traceb
 - The `ValueError` exception is useful for detecting unpacking errors.
 - Python has a [`traceback`](https://docs.python.org/3/library/traceback.html) module.
 
-These notes are based on Jeff Knupp's "[Python with Context Managers](https://jeffknupp.com/blog/2016/03/07/python-with-context-managers/)" blog post:
+These notes are based on Jeff Knupp's "[Python with Context Managers](https://github.com/jeffknupp/blog/blob/master/content/2016-03-07-python-with-context-managers.md)" blog post:
+
+<!-- Previous URL: https://jeffknupp.com/blog/2016/03/07/python-with-context-managers/ -->
 
 - Context managers are used to managing resources properly. Working with files is a good example because opening a file consumes a file descriptor (a resource that is limited by the OS).
 - `infile`: Abbreviation for _input file_.

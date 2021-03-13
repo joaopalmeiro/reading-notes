@@ -18,7 +18,7 @@ These notes are based on DataCamp's "[Introduction to Airflow in Python](https:/
 - As of Airflow 1.8, task dependencies are defined using bitwise operators:
   - `>>`: Upstream (_before_, that is, an upstream task appears _before_ a downstream task) operator.
   - `<<`: Downstream (_after_) operator.
-- There are more operators in the [`airflow.contrib.operators`](https://airflow.apache.org/docs/stable/_api/airflow/contrib/operators/index.html) module.
+- There are more operators in the [`airflow.contrib.operators`](https://airflow.apache.org/docs/apache-airflow/1.10.14/_api/airflow/contrib/operators/index.html) module.
 - DAG run: A workflow instance at a point in time.
 - The `start_date` parameter is defined with a Python [`datetime`](https://docs.python.org/3/library/datetime.html) object.
 - The `start_date` and `end_date` parameters are the _minimum_ and _maximum_ values for scheduling a DAG. The `schedule_interval` parameter defines how often a DAG is scheduled (the `None` value is used for manually triggered DAGs).
