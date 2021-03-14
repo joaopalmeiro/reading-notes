@@ -76,7 +76,7 @@ else:
     ...  # Code to be executed if the try clause does not raise an exception
 ```
 
-**Class-based context manager** (this snippet is based on Jeff Knupp's "[Python with Context Managers](https://jeffknupp.com/blog/2016/03/07/python-with-context-managers/)" blog post):
+**Class-based context manager** (this snippet is based on Jeff Knupp's "[Python with Context Managers](https://github.com/jeffknupp/blog/blob/master/content/2016-03-07-python-with-context-managers.md)" blog post):
 
 ```python
 from typing import IO, Any
@@ -103,7 +103,7 @@ class File:
         self.file.close()
 ```
 
-**Decorated context manager** (this snippet is based on Jeff Knupp's "[Python with Context Managers](https://jeffknupp.com/blog/2016/03/07/python-with-context-managers/)" blog post):
+**Decorated context manager** (this snippet is based on Jeff Knupp's "[Python with Context Managers](https://github.com/jeffknupp/blog/blob/master/content/2016-03-07-python-with-context-managers.md)" blog post):
 
 ```python
 from contextlib import contextmanager
