@@ -9,6 +9,8 @@
 - [Papers/Articles](#papersarticles)
   - [`The Hardware Lottery`](#p1)
   - [`On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜`](#p2)
+- [Talks](#talks)
+  - [`Machine Learning Performance Monitoring`](#t1)
 
 ## Blog Posts
 
@@ -39,6 +41,7 @@ Monday, March 29, 2021
     - Actuals distribution in training vs. actuals distribution in production.
 - The reference distribution "(...) can be a distribution across a fixed time window (distribution doesn't change) or a moving time window (distribution can change)."
 - Identifying whether there has been a distribution change in a feature can also be useful to see if it can be dropped (if it is not impacting the model's performance). "While a feature distribution change should be investigated, it does not always mean that there will be a correlated performance issue."
+- HERE
 
 ---
 
@@ -181,3 +184,22 @@ Sunday, January 24, 2021
 
 - Stochastic parrots: models repeating and manifesting issues in the data ([source](https://gist.github.com/yoavg/9fc9be2f98b47c189a513573d902fb27)).
 - Emoji in the title for reinforcement.
+
+---
+
+## Talks
+
+### T1
+
+[`Machine Learning Performance Monitoring`](https://youtu.be/iiLadbM_It8) | Emeli Dral | DataTalks.Club
+
+Wednesday, March 31, 2021
+
+**Notes**:
+
+- Data drift: change in feature distribution.
+- Concept drift: change in underlying relationships (same feature distribution, different target class distribution, for example).
+- Gradual concept drift (model retraining can help) vs. sudden concept drift.
+- Monitoring:
+  - Service health (memory and latency, for example) vs. data health vs. model health.
+  - Add ML metrics to service health monitoring (using Grafana for real-time models, for example) vs. prepare ML-focused reports/dashboards (for batch models, for example).
