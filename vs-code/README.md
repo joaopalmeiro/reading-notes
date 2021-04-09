@@ -25,3 +25,7 @@ Coder Coder's "[How to make your own VS Code theme!](https://youtu.be/pGzssFNtWX
   - CLI for packaging, publishing, and managing VS Code extensions.
   - `npm install -g vsce`.
 - [VS Code Theme Color Generator](https://coder-coder.com/vs-code-theme-color-generator/).
+
+DesignCourse's [Creating a Visual Studio Code Theme - EASILY!](https://youtu.be/uQoYH2wLlhY) tutorial:
+
+- [Theme Studio for VS Code](https://themes.vscode.one/).
