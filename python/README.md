@@ -116,3 +116,11 @@ def open_file(path: str, mode: str) -> Generator:
     yield file
     file.close()  # After `yield`: `__exit__()`
 ```
+
+## Packages
+
+[chime](https://github.com/MaxHalford/chime):
+
+- Notification sounds.
+- calmcode's [chime](https://calmcode.io/chime/introduction.html) tutorial.
+- `chime.notify_exceptions()`: Play the error sound when an exception is raised.
