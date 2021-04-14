@@ -4,7 +4,7 @@
 
 ## Download the relevant font (Roboto)
 
-Go to `https://fonts.google.com/specimen/Roboto` and click on `Download family`
+Go to `https://fonts.google.com/specimen/Roboto` and click on _Download family_
 
 or
 
