@@ -1,8 +1,8 @@
-# Command Line
+# Notes
 
-## Notes
+## PyBites Developer Tools Workshop
 
-These notes are based on PyBites's "[PyBites Developer Tools Workshop](https://pybit.es/pages/devtools)" training session:
+**Source**: PyBites's "[PyBites Developer Tools Workshop](https://pybit.es/pages/devtools)" training session.
 
 - [Ag](https://github.com/ggreer/the_silver_searcher) (a.k.a. The Silver Searcher):
   - It is a code searching tool (it works as an alternative to `find` and `grep`).

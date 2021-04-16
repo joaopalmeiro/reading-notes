@@ -1,0 +1,25 @@
+{
+  "name": "reading-notes",
+  "description": "A collection of personal reading notes from different topics.",
+  "scripts": {
+    "serve": "docsify serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaopalmeiro/reading-notes.git"
+  },
+  "author": {
+    "name": "João Palmeiro",
+    "email": "joaommpalmeiro@gmail.com",
+    "url": "https://joaopalmeiro.github.io/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joaopalmeiro/reading-notes/issues"
+  },
+  "homepage": "https://github.com/joaopalmeiro/reading-notes#readme",
+  "devDependencies": {
+    "docsify-cli": "^4.4.3",
+    "prettier": "^2.2.1"
+  }
+}
