@@ -25,6 +25,10 @@
     - [Introducing visx from Airbnb](data-visualization/blog-posts/introducing_visx_from_airbnb.md)
     - [The Stellar Chart: An Elegant Alternative to Radar Charts](data-visualization/blog-posts/the_stellar_chart.md)
 
+  - Papers
+
+    - [Truncating the Y-Axis: Threat or Menace?](data-visualization/papers/truncating_the_y_axis.md)
+
   - Talks
 
     - [The Python Data Visualization Landscape in 2020](data-visualization/talks/the_python_data_visualization_landscape_in_2020.md)
