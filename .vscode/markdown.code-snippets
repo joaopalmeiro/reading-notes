@@ -1,0 +1,8 @@
+{
+  "`<kbd>` tag": {
+    "scope": "markdown",
+    "prefix": ["kbd"],
+    "body": ["<kbd>$1</kbd>"],
+    "description": "HTML `<kbd>` tag to define keyboard input."
+  }
+}

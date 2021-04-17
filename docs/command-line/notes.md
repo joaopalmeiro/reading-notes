@@ -46,4 +46,4 @@ fi
 
 ## Shortcuts
 
-- Clear (macOS): `Command`+`K`.
+- Clear (macOS): <kbd>Command</kbd> + <kbd>K</kbd>.
