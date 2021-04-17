@@ -4,7 +4,7 @@
 
 Saturday, May 02, 2020
 
-- "(...) containment measures do seem to work, means that the basic reproduction number [R<sub>0</sub>] is probably in the lower bound of the 1.3-6.5 range, and can decrease below 1 with proper measures."
+- "(...) containment measures do seem to work, means that the basic reproduction number [$R_0$] is probably in the lower bound of the 1.3-6.5 range, and can decrease below 1 with proper measures."
 - "The most widely quoted CFR has been 3.4%, reported by WHO dividing the number of deaths by documented cases in early March. This ignores undetected infections and the strong age dependence of CFR."
 - "The most complete data come from Diamond Princess passengers, with CFR = 1% observed in an elderly cohort; thus, CFR may be much lower than 1% in the general population, probably higher than seasonal flu (CFR = 0.1%), but not much so."
 - "Observed crude CFR in South Korea and in Germany, the countries with most extensive testing, is 0.9% and 0.2%, respectively, as of March 14, and crude CFR in Scandinavian countries is about 0.1%."

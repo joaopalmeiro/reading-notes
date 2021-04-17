@@ -5,3 +5,8 @@
 :page_with_curl: A collection of personal reading notes from different topics.
 
 > [Website](https://joaopalmeiro.github.io/reading-notes/).
+
+## Notes
+
+- [docsify-katex](https://github.com/upupming/docsify-katex).
+- [KaTeX documentation](https://katex.org/docs/supported.html).

@@ -1,5 +1,5 @@
 {
   "default": true,
   "MD013": false,
-  "MD033": { "allowed_elements": ["kbd", "sub", "sup"] }
+  "MD033": { "allowed_elements": ["kbd"] }
 }
