@@ -1,6 +1,6 @@
 # Install Google Fonts on Ubuntu
 
-**Source**: Lighton Phiri's [Install Google Fonts](https://gist.github.com/lightonphiri/5811226a1fba0b3df3be73ff2d5b351c) gist.
+> **Source**: Lighton Phiri's [Install Google Fonts](https://gist.github.com/lightonphiri/5811226a1fba0b3df3be73ff2d5b351c) gist.
 
 ## Download the relevant font (Roboto)
 

@@ -1,8 +1,8 @@
-# Apache Airflow
+# Notes
 
-## Notes
+## Introduction to Airflow in Python
 
-These notes are based on DataCamp's "[Introduction to Airflow in Python](https://www.datacamp.com/courses/introduction-to-airflow-in-python)" course:
+> **Source**: DataCamp's "[Introduction to Airflow in Python](https://www.datacamp.com/courses/introduction-to-airflow-in-python)" course.
 
 - Data Engineering tool.
 - Workflows are implemented as DAGs (_set of tasks and dependencies between them_) in Python (it is possible to use Bash scripts, Python functions, and other types of building blocks/tasks).
@@ -45,7 +45,7 @@ These notes are based on DataCamp's "[Introduction to Airflow in Python](https:/
 - Other operators also accept the `provide_context` parameter.
 - Instead of `**kwargs`, use `**context` (code style).
 
-## Imports
+### Imports
 
 ```python
 from datetime import datetime, timedelta
@@ -59,7 +59,7 @@ from airflow.operators.http_operator import SimpleHttpOperator
 from airflow.operators.python_operator import BranchPythonOperator, PythonOperator
 ```
 
-## Commands
+### Commands
 
 - Help commands:
   - `airflow -h`

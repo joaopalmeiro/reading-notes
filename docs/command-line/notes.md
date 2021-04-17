@@ -2,7 +2,7 @@
 
 ## PyBites Developer Tools Workshop
 
-**Source**: PyBites's "[PyBites Developer Tools Workshop](https://pybit.es/pages/devtools)" training session.
+> **Source**: PyBites's "[PyBites Developer Tools Workshop](https://pybit.es/pages/devtools)" training session.
 
 - [Ag](https://github.com/ggreer/the_silver_searcher) (a.k.a. The Silver Searcher):
   - It is a code searching tool (it works as an alternative to `find` and `grep`).
@@ -22,19 +22,19 @@ These notes are based on Wes Bos's "[Command Line Power User](https://wesbos.com
 
 - The `rm` command permanently removes files (no file recovery).
 
-## Commands
+### Commands
 
 - Ag:
   - Check the list of available file types (_filters_): `ag --list-file-types` (or [here](https://github.com/ggreer/the_silver_searcher/blob/master/tests/list_file_types.t)).
 
-## Aliases
+### Aliases
 
 - Ag:
   - Limit your search to Python files (`.py`): `alias agg='ag --python'`.
 - `ls` command with file sizes in a human-readable format and with entries sorted from oldest to most recent: `alias lt='ls -lrth'`.
 - `alias brc='code ~/.bashrc'` (file to add aliases).
 
-## Snippets
+### Snippets
 
 Terminal (Terminal.app) on macOS runs a login shell (by default) for each new window. Thus, it calls `.bash_profile` instead of `.bashrc`. So, add this snippet to `.bash_profile` to call `.bashrc` as well (this snippet is based on Josh Staiger's "[`.bash_profile` vs `.bashrc`](https://joshstaiger.org/archives/2005/07/bash_profile_vs.html)" blog post):
 
@@ -44,6 +44,6 @@ if [ -f ~/.bashrc ]; then
 fi
 ```
 
-## Shortcuts
+### Shortcuts
 
 - Clear (macOS): <kbd>Command</kbd> + <kbd>K</kbd>.

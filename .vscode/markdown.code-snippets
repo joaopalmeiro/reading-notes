@@ -4,5 +4,11 @@
     "prefix": ["kbd"],
     "body": ["<kbd>$1</kbd>"],
     "description": "HTML `<kbd>` tag to define keyboard input."
+  },
+  "Source": {
+    "scope": "markdown",
+    "prefix": ["source"],
+    "body": ["> **Source**: $1."],
+    "description": "Add the source of certain notes."
   }
 }
