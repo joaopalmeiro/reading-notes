@@ -1,42 +1,8 @@
-<!-- markdownlint-disable-file MD033 -->
+# Coronavirus disease 2019: The harms of exaggerated information and non‐evidence‐based measures
 
-# COVID-19
-
-## Table of Contents
-
-- [Opinion Articles](#opinion-articles).
-- [Papers](#papers).
-
-## Opinion Articles
-
-The (bullet point) text enclosed in double quotation marks refers to quotes from the author(s) of the respective opinion article.
-
----
-
-[`What the Proponents of 'Natural' Herd Immunity Don't Say`](https://www.nytimes.com/2020/05/01/opinion/sunday/coronavirus-herd-immunity.html) | Carl T. Bergstrom, Natalie Dean | The New York Times | 2020
-
-Sunday, May 03, 2020
-
-**Quotes, notes, and takeaways**:
-
-- "The concept of herd immunity is typically described in the context of a vaccine."
-- "(...) prior infection has to confer immunity against future infection. While hopeful, scientists are not yet certain that this is the case, nor do they know how long this immunity might last."
-- "Herd immunity doesn't stop a virus in its tracks. The number of infections continues to climb after herd immunity is reached."
-  - Metaphor: "A runaway train doesn't stop the instant the track begins to slope uphill, and a rapidly spreading virus doesn't stop right when herd immunity is attained."
-
----
-
-## Papers
-
-The (bullet point) text enclosed in double quotation marks refers to quotes from the author(s) of the respective paper.
-
----
-
-[`Coronavirus disease 2019: The harms of exaggerated information and non‐evidence‐based measures`](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7163529/) | John P. A. Ioannidis | 2020
+> **Source**: [`Coronavirus disease 2019: The harms of exaggerated information and non‐evidence‐based measures`](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7163529/) | John P. A. Ioannidis | 2020
 
 Saturday, May 02, 2020
-
-**Quotes, notes, and takeaways**:
 
 - "(...) containment measures do seem to work, means that the basic reproduction number [R<sub>0</sub>] is probably in the lower bound of the 1.3-6.5 range, and can decrease below 1 with proper measures."
 - "The most widely quoted CFR has been 3.4%, reported by WHO dividing the number of deaths by documented cases in early March. This ignores undetected infections and the strong age dependence of CFR."
