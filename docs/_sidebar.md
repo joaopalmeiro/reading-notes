@@ -90,6 +90,18 @@
 
 - Python
 
+  - Blog Posts
+
+    - [PEP 561 -- Distributing and Packaging Type Information](python/blog-posts/pep_561_distributing_and_packaging_type_information.md)
+    - [Python with Context Managers](python/blog-posts/python_with_context_managers.md)
+
   - Courses
 
+    - [chime: Sound Cues](python/courses/chime.md)
     - [Getting the Most Out of a Python Traceback](python/courses/getting_the_most_out_of_a_python_traceback.md)
+
+  - Talks
+
+    - [Did you know it's possible to avoid bugs only by using types? Meet "Type Driven Development", a strong approach used to get rid of common bugs in the code and it can be used in Python](python/talks/did_you_know_it_s_possible_to_avoid_bugs_only_by_using_types.md)
+
+  - [Notes](python/notes.md)
