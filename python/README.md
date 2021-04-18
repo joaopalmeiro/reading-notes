@@ -1,17 +1,3 @@
-# Python
-
-## Notes
-
-These notes are based on Real Python's "[Getting the Most Out of a Python Traceback](https://realpython.com/courses/python-traceback/)" course:
-
-- Traceback: A kind of report composed of function calls at a given point.
-- In Python, it is recommended to read the traceback from the bottom up.
-- There are differences in the output between the command line and the REPL environment (instead of filenames, `"<stdin>"` is obtained, for example).
-- The `NameError` exception is useful for finding misspelled variables/parameters.
-- The `SyntaxError` exception is raised during code parsing, that is, before execution.
-- The `ValueError` exception is useful for detecting unpacking errors.
-- Python has a [`traceback`](https://docs.python.org/3/library/traceback.html) module.
-
 These notes are based on Jeff Knupp's "[Python with Context Managers](https://github.com/jeffknupp/blog/blob/master/content/2016-03-07-python-with-context-managers.md)" blog post:
 
 <!-- Previous URL: https://jeffknupp.com/blog/2016/03/07/python-with-context-managers/ -->
@@ -59,22 +45,6 @@ These notes are based on Carlos Villavicencio's "[Did you know it's possible to 
 - Check the maximum number of open file descriptors (on the command line): `ulimit -n`
 
 ## Snippets
-
-**Log a traceback** (this snippet is based on Real Python's "[Getting the Most Out of a Python Traceback](https://realpython.com/courses/python-traceback/)" course):
-
-```python
-import logging
-
-logger = logging.getLogger(__name__)
-
-try:
-    ...
-except Exception as e:
-    logger.exception("Error")
-    ...
-else:
-    ...  # Code to be executed if the try clause does not raise an exception
-```
 
 **Class-based context manager** (this snippet is based on Jeff Knupp's "[Python with Context Managers](https://github.com/jeffknupp/blog/blob/master/content/2016-03-07-python-with-context-managers.md)" blog post):
 

@@ -87,3 +87,9 @@
 
     - [Introduction to PySpark](pyspark/courses/introduction_to_pyspark.md)
     - [Cleaning Data with PySpark](pyspark/courses/cleaning_data_with_pyspark.md)
+
+- Python
+
+  - Courses
+
+    - [Getting the Most Out of a Python Traceback](python/courses/getting_the_most_out_of_a_python_traceback.md)
