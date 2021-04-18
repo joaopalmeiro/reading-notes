@@ -1,6 +1,4 @@
-# R
-
-## Notes
+# Notes
 
 - `<-`: Assignation.
 - Atomic vectors are vectors whose elements are all of the same type.

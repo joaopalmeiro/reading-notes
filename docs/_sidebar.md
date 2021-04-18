@@ -97,11 +97,33 @@
 
   - Courses
 
-    - [chime: Sound Cues](python/courses/chime.md)
     - [Getting the Most Out of a Python Traceback](python/courses/getting_the_most_out_of_a_python_traceback.md)
 
   - Talks
 
     - [Did you know it's possible to avoid bugs only by using types? Meet "Type Driven Development", a strong approach used to get rid of common bugs in the code and it can be used in Python](python/talks/did_you_know_it_s_possible_to_avoid_bugs_only_by_using_types.md)
 
+  - Tutorials
+
+    - [chime: Sound Cues](python/tutorials/chime.md)
+
   - [Notes](python/notes.md)
+
+- R
+
+  - [Notes](r/notes.md)
+
+- Science Communication
+
+  - Blog Posts
+
+    - [Case Study: The First Image of a Black Hole](science-communication/blog-posts/case_study_the_first_image_of_a_black_hole.md)
+
+  - Papers
+
+    - [](science-communication/papers/a_field_of_expertise_the_organization_or_science_itself.md)
+    - [](science-communication/papers/cheerleader_or_watchdog.md)
+    - [](science-communication/papers/communicating_through_humour.md)
+    - [](science-communication/papers/communicating_with_interactive_articles.md)
+    - [](science-communication/papers/ethics_and_statistics_the_aaa_tranche_of_subprime_science.md)
+    - [](science-communication/papers/translating_scientific_graphics_for_public_audiences.md)
