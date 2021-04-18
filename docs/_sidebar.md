@@ -121,9 +121,9 @@
 
   - Papers
 
-    - [](science-communication/papers/a_field_of_expertise_the_organization_or_science_itself.md)
-    - [](science-communication/papers/cheerleader_or_watchdog.md)
-    - [](science-communication/papers/communicating_through_humour.md)
-    - [](science-communication/papers/communicating_with_interactive_articles.md)
-    - [](science-communication/papers/ethics_and_statistics_the_aaa_tranche_of_subprime_science.md)
-    - [](science-communication/papers/translating_scientific_graphics_for_public_audiences.md)
+    - [A Field of Expertise, the Organization, or Science Itself? Scientists’ Perception of Representing Research in Public Communication](science-communication/papers/a_field_of_expertise_the_organization_or_science_itself.md)
+    - [Cheerleader or watchdog?](science-communication/papers/cheerleader_or_watchdog.md)
+    - [Communicating through humour: A project of stand-up comedy about science](science-communication/papers/communicating_through_humour.md)
+    - [Communicating with Interactive Articles](science-communication/papers/communicating_with_interactive_articles.md)
+    - [Ethics and Statistics: The AAA Tranche of Subprime Science](science-communication/papers/ethics_and_statistics_the_aaa_tranche_of_subprime_science.md)
+    - [Translating Scientific Graphics for Public Audiences](science-communication/papers/translating_scientific_graphics_for_public_audiences.md)
