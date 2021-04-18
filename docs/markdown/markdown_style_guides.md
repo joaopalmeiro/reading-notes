@@ -1,9 +1,10 @@
-# Markdown
+# Markdown Style Guides
 
-## Notes
+## Arctic Ice Studio
 
-Arctic Ice Studio and Sven Greb's [Markdown code style](https://arcticicestudio.github.io/styleguide-markdown/) ([repo](https://github.com/arcticicestudio/styleguide-markdown)):
+> **Source**: Arctic Ice Studio and Sven Greb's [Markdown code style](https://arcticicestudio.github.io/styleguide-markdown/) guide.
 
+- [Repo](https://github.com/arcticicestudio/styleguide-markdown).
 - Inline code spans (one backtick character) **should be** used to highlight:
   - Executables: `gcc`, `npm`, `go`, `python`.
   - Paths: `/etc/hosts`.

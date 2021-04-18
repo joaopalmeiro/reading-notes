@@ -75,3 +75,15 @@
   - Talks
 
     - [Machine Learning Performance Monitoring](machine-learning/talks/machine_learning_performance_monitoring.md)
+
+- Markdown
+
+  - [Markdown Style Guides](markdown/markdown_style_guides.md)
+  - [README Files](markdown/readme_files.md)
+
+- PySpark
+
+  - Courses
+
+    - [Introduction to PySpark](pyspark/courses/introduction_to_pyspark.md)
+    - [Cleaning Data with PySpark](pyspark/courses/cleaning_data_with_pyspark.md)
