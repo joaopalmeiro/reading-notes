@@ -7,8 +7,9 @@
 
 ## Packages
 
-- [deSolve](http://desolve.r-forge.r-project.org/): A package for differential equations.
-- [reshape2](https://github.com/hadley/reshape): A package to reshape data (a kind of precursor to [tidyr](https://tidyr.tidyverse.org/)).
+- {[deSolve](http://desolve.r-forge.r-project.org/)}: A package for differential equations.
+- {[reshape2](https://github.com/hadley/reshape)}: A package to reshape data (a kind of precursor to [tidyr](https://tidyr.tidyverse.org/)).
+- {[strex](https://rorynolan.github.io/strex/index.html)}: Complement to the {stringr} package.
 
 ## Snippets
 
