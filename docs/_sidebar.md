@@ -60,4 +60,18 @@
 
 - Machine Learning
 
-  - [Using Statistical Distances for Machine Learning Observability](machine-learning/blog-posts/using_statistical_distances_for_machine_learning_observability.md)
+  - Blog Posts
+
+    - [Using Statistical Distances for Machine Learning Observability](machine-learning/blog-posts/using_statistical_distances_for_machine_learning_observability.md)
+
+  - Courses
+
+    - [MIT 6.S191: Introduction to Deep Learning](machine-learning/courses/mit_introduction_to_deep_learning.md)
+
+  - Papers
+
+    - [The Hardware Lottery](machine-learning/papers/the_hardware_lottery.md)
+
+  - Talks
+
+    - [Machine Learning Performance Monitoring](machine-learning/talks/machine_learning_performance_monitoring.md)
