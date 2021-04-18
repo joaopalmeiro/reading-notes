@@ -127,3 +127,11 @@
     - [Communicating with Interactive Articles](science-communication/papers/communicating_with_interactive_articles.md)
     - [Ethics and Statistics: The AAA Tranche of Subprime Science](science-communication/papers/ethics_and_statistics_the_aaa_tranche_of_subprime_science.md)
     - [Translating Scientific Graphics for Public Audiences](science-communication/papers/translating_scientific_graphics_for_public_audiences.md)
+
+- VS Code
+
+  - Tutorials
+
+    - [Creating a Visual Studio Code Theme - EASILY!](vs-code/tutorials/creating_a_visual_studio_code_theme.md)
+    - [How to make your own VS Code theme!](vs-code/tutorials/how_to_make_your_own_vs_code_theme.md)
+    - [VS Code extensions that I can't live without!](vs-code/tutorials/vs_code_extensions_that_i_can_t_live_without.md)
