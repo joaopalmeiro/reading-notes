@@ -27,12 +27,12 @@
 
   - Papers
 
-    - [](data-visualization/papers/at_a_glance_pixel_approximate_entropy_as_a_measure_of_line_chart_complexity.md)
+    - [At a Glance: Pixel Approximate Entropy as a Measure of Line Chart Complexity](data-visualization/papers/at_a_glance_pixel_approximate_entropy_as_a_measure_of_line_chart_complexity.md)
     - [Augmenting Code with In Situ Visualizations to Aid Program Understanding](data-visualization/papers/augmenting_code_with_in_situ_visualizations_to_aid_program_understanding.md)
     - [B2: Bridging Code and Interactive Visualization in Computational Notebooks](data-visualization/papers/b2.md)
     - [Belief at first sight: Data visualization and the rationalization of seeing](data-visualization/papers/belief_at_first_sight.md)
     - [DALEX: Explainers for Complex Predictive Models in R (short version)](data-visualization/papers/dalex_short_version.md)
-    - [](data-visualization/papers/instanceflow.md)
+    - [InstanceFlow: Visualizing the Evolution of Classifier Confusion on the Instance Level](data-visualization/papers/instanceflow.md)
     - [TeleGam: Combining Visualization and Verbalization for Interpretable Machine Learning](data-visualization/papers/telegam.md)
     - [Truncating the Y-Axis: Threat or Menace?](data-visualization/papers/truncating_the_y_axis.md)
     - [VaBank: Visual Analytics for Banking Transactions](data-visualization/papers/vabank.md)
