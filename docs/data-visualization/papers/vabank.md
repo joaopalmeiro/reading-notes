@@ -1,0 +1,76 @@
+# VaBank: Visual Analytics for Banking Transactions
+
+> **Source**: [`VaBank: Visual Analytics for Banking Transactions`](https://conferences.computer.org/iv/pdfs/IV2020-5aDDWiHiJcr3O59ex2Ftp6/913400a336/913400a336.pdf) | Catarina Maçãs, Evgheni Polisciuc, Penousal Machado | 2020 | [Video](https://vimeo.com/444222426)
+
+Thursday, September 17, 2020
+
+- Target group: fraud analysts.
+- Main analysis goals/tasks identified by fraud analysts:
+  - "(...) understand the temporal evolution of a set of transactions — usually grouped by an attribute, such as client ID (...)" or "(...) the comprehension of the transactions history;"
+  - "(...) search for patterns and common characteristics among transactions (...)" or "the detection of the most common types of transactions [as it helps to distinguish between typical and atypical behaviors]."
+- Requirements:
+  - "Search by field."
+  - "Distinguish amount values [(money)]."
+  - "Distinguish transactions."
+  - "Search common fields."
+  - "Detect typical transactions. Detect the most common types of transactions can aid the analyst in the perception of unusual transactions, possibly related to fraud."
+- Visualizing the output of a self-organizing map (SOM) is a way of providing "(...) a visual summary of the data topology (...)".
+  - SOM: it "(...) is a method [(neural network)] for dimensionality reduction that preserves topological and metric relationships of the input data."
+  - The authors use an algorithm that works with mixed data (numerical and categorical features) — Frequency neuron Mixed Self-Organizing Map (FMSOM).
+  - To visualize a SOM, neurons are typically projected on a 2D grid ("(...) hexagonal grids can also be used").
+  - "The most common projection is the Unified Distance Matrix (U-matrix), in which neurons are placed in a grid and the Euclidean distances between neighbouring neurons are represented through a grey scale colour palette."
+  - Dissimilarity metrics (between neurons):
+    - "(...) Euclidean distance for continuous values (...)."
+    - "(...) measure based on probabilities for categorical features."
+    - Two types ("the [final] dissimilarity [measures] (...) [are] defined as the sum of the numerical and categorical parts (...)"):
+      - "(...) one for the training of the SOM [, that is, between neurons and input feature vectors] (...)": "The numerical part is calculated using Euclidean distance on normalised values. For the categorical dissimilarity measure the sum of the partial dissimilarities is calculated, i.e., the dissimilarity is measured as the probability of the reference vector not containing the category in the input vector."
+      - "(...) another for the visualization [, that is, between neurons].": "For the numerical part the traditional Euclidean distance is applied `$D_n(W_i, W_j) = \sqrt{\sum_{z=1}^n (W_{iz} - W_{jz})^2}$`. For the categorical features the dissimilarity measure was defined as the Euclidean distance between the probabilities for each of the categories present in the reference vector `$D_k(W_i, W_j) = \sqrt{\sum_{z=n}^k \sum_{m=1}^r (W_{iz}\[a^m\] - W_{jz}\[a^m\])}$`."
+      - Note: `$n$` is the number of continuous features, `$k$` is the number of categorical features, and `$r$` is the number of categories of the `$k_{th}$` feature.
+  - Python package for SOMs: [MiniSom](https://github.com/JustGlowing/minisom).
+- The proposed tool is divided into three views:
+  - The _Transaction History_ view:
+    - It contains (also) a matrix that divides "(...) the space in different ranges of amounts on the y-axis and temporal values on the x-axis. (...) histograms are drawn to show the total number of transactions per column and row, respectively."
+    - "The transactions [(glyphs)] are then distributed by the cells of the matrix, according to their date and amount."
+    - "If more than one transaction with the same characteristics (...) occur within the same cell, they are aggregated and its glyph grows in size. The placement within each cell is made through a [circle packing](https://en.wikipedia.org/wiki/Circle_packing) algorithm which starts by placing the biggest glyph in the middle of the cell and the others around it."
+    - "The user can hover each glyph and see more details [(a.k.a. tooltip)] (...). If the user clicks on a glyph, these details are fixed in the canvas [(matrix)]. Then, the user can click on an attribute to highlight all transactions that share that attribute."
+    - Timeline:
+      - "In the bottom, we placed an interactive timeline, so the user can select and visualise different periods of time in the data (...)."
+      - The time periods, that is, the time bars are defined with a hierarchical temporal aggregation algorithm. This algorithm adapts the granularity of the timeline and adjusts the size of the time bars for fixed-size timelines based on the available space and the minimum width of the bar size.
+      - "The timeline is divided vertically in two parts. In the upper part, we represent the number of transactions with bars [(they also have tooltips)]. Each bar is drawn as follows: (i) its height represents the total number of transactions; (ii) the main colour of the bar is defined by a gradient between blue and orange — the more blue, the higher the number of online transactions, the more orange, the higher the number of business transactions. (...) To give more details, we represent the quantity of each transaction type with a bar placed vertically in the main bar, according to the percentage of occurrence, and coloured, according to the transaction type."
+      - The strategy above looks like an adaptation of the idea of a stacked bar chart.
+      - "In the bottom part of the timeline, we place a rectangle with a predefined height if one or more fraudulent transactions occur. This rectangle is coloured according to the percentage of fraudulent transactions in that specific period of time. The higher the number of fraudulent transactions, the brighter and more red the bar will be (...) If no fraud occurs, no bar is drawn."
+  - The _Transactions Topology_ view:
+    - Goal: "(...) represent the distribution of different types of transactions present in the data and extrapolate at a higher level the characteristics of the dataset."
+    - This view has a _typical_ SOM visualization.
+  - The _Transactions Relations_ view:
+    - Goal: "(...) express the relations among clustered data and emphasise the most typical transaction (...)."
+    - "(...) neurons and transactions are represented as nodes and are positioned within the canvas according to their dissimilarity measure: the similar two neurons are, the closer they will get."
+    - However, "(...) nodes have distinct representations. The neurons are represented with the glyphs (...). For the groups of transactions we use a circular graph that represents the number of transactions by month of occurrence."
+    - "We use a line to connect the nodes. These lines are coloured: (i) in red, if they connect a node representing a group of transactions and their BMU neuron; (ii) in light grey, if they connect a group of transactions and other neurons which are also similar to them, but are not their BMU; and (iii) in blue, if they connect two similar neurons."
+    - "(...) only nodes which dissimilarity is below a predefined threshold have forces of attraction, creating visual clusters defined by the SOM topology."
+    - "(...) gravitational force, attracting all nodes to the centre of the canvas. The higher the number of connections between nodes, the higher this gravitational force. With this, clusters more representative of the dataset will be in the centre of the canvas, and the ones representing atypical transactions in the periphery."
+    - "To avoid clutter, only neurons selected as a best matching unit (BMU) in the training process of the SOM are represented (...)."
+  - Note: The last two views are SOM-based projections — a matrix/grid and a force-directed graph, respectively.
+- Glyphs composed of three levels of visual detail/impact are used to distinguish transactions (in the three views). Page 4 has a great figure illustrating the glyph elements.
+  - First level (three characteristics):
+    - "First, the analysts aim to distinguish online from business transactions. Then, it is necessary to analyse the transaction amount and whether it was considered as fraud or not."
+    - Color is used to highlight the characteristics of the first visual level:
+      - "(...)" different hues to the types of transaction: orange for business; blue for online."
+      - "(...) saturation to represent the amount, the brighter the colour, the higher the amount."
+      - "As small differences in saturation would be imperceptible, we defined three levels of saturation [(based on a threshold compared to the average amount)] to represent: low, medium, and high amounts."
+    - Shapes are also used "(...) to emphasise the distinction between transaction types — a circle for online transactions, and a rectangle for business."
+    - "To represent fraud, we place a red line above the main shape."
+  - Second level (two characteristics):
+    - "(...) inbound and outbound transactions; and new and old beneficiaries."
+    - "The transactions’ shape are complemented with a set of symbols that represent the types of operation. They are divided according to the directionality of the transaction, outbound or inbound."
+    - "As the new beneficiary characteristic is a binary value, we represent transactions for new beneficiaries by dividing the stroke of the main shape in two."
+  - Third level (two characteristics):
+    - "(...) the time characterisation of each transaction and the interface with which the transaction was made (...)."
+    - "(...) we represent the year, month, and day of the week of the transaction. Each time variable is represented by a circle with different radius centred in the main shape [respectively] (...)."
+    - The circles/strokes are divided into wedges. "All wedges are coloured in light grey, except the wedge that marks the transaction date, coloured in black."
+    - "The day of the week has a thicker wedge, as the analysts referred to it as the most important time variable."
+    - The "(...) elapsed time between the current transaction and the previous and following transactions (...)" is also represented through three levels of time distance (based on a threshold compared to the average).
+    - "(...) the interface of the transaction is represented by filling the elapsed time's shape with the interface colour (...)."
+- Evaluation:
+  - The authors used four metrics for each task group: difficulty, certainty, accuracy, and duration.
+  - "The [fraud] analysts also had some difficulty in interpreting the glyphs, which made their certainty to be slightly lower than the other groups."
