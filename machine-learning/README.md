@@ -1,49 +1,9 @@
-# Machine Learning
-
-## Table of Contents
-
-- Blog Posts
-  - [`Using Statistical Distances for Machine Learning Observability`](#bp1)
 - [Courses](#courses)
   - [MIT 6.S191: Introduction to Deep Learning](#mit-6s191-introduction-to-deep-learning)
 - [Papers/Articles](#papersarticles)
   - [`The Hardware Lottery`](#p1)
-  - [`On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜`](#p2)
 - [Talks](#talks)
   - [`Machine Learning Performance Monitoring`](#t1)
-
-## Blog Posts
-
-The (bullet point) text enclosed in double quotation marks refers to quotes from the author(s) of the respective blog post.
-
----
-
-### BP1
-
-[`Using Statistical Distances for Machine Learning Observability`](https://towardsdatascience.com/using-statistical-distance-metrics-for-machine-learning-observability-4c874cded78) | Aparna Dhinakaran | 2020
-
-Monday, March 29, 2021
-
-**Quotes, notes, and takeaways**:
-
-- ML Observability.
-- Statistical distances: measures to quantify the distance between two distributions.
-- They can be used to check:
-  - Model inputs (data or output from an upstream model):
-    - Feature distribution in training vs. feature distribution in production (over a certain time window).
-    - Feature distribution in production (time window A) vs. feature distribution in production (time window B).
-  - Model outputs:
-    - Prediction distribution in training vs. prediction distribution in production.
-    - Prediction distribution in production (time window A) vs. prediction distribution in production (time window B).
-    - Prediction distribution for model A vs. prediction distribution for model B (in the same time window).
-  - Actuals (ground truth):
-    - "In some cases, the ground truth might not be available within a short time horizon after prediction."
-    - Actuals distribution in training vs. actuals distribution in production.
-- The reference distribution "(...) can be a distribution across a fixed time window (distribution doesn't change) or a moving time window (distribution can change)."
-- Identifying whether there has been a distribution change in a feature can also be useful to see if it can be dropped (if it is not impacting the model's performance). "While a feature distribution change should be investigated, it does not always mean that there will be a correlated performance issue."
-- HERE
-
----
 
 ## Courses
 
@@ -171,19 +131,6 @@ Monday, October 5, 2020
   - "While algorithms like deep neural networks rely on global updates in order to learn a useful representation, our brains do not. Our own intelligence relies on decentralized local updates which surface a global signal in ways that are still not well understood (...)."
   - The brain needs far fewer labeled examples.
   - "(...) evidence suggests that the brain does not perform a full forward and backward pass for all inputs. Instead, the brain simulates what inputs are expected against incoming sensory data. Based upon the certainty of the match, the brain simply infills. What we see is largely virtual reality computed from memory (...)."
-
----
-
-### P2
-
-[`On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜`](http://faculty.washington.edu/ebender/papers/Stochastic_Parrots.pdf) | Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Shmargaret Shmitchell | 2021
-
-Sunday, January 24, 2021
-
-**Quotes, notes, and takeaways**:
-
-- Stochastic parrots: models repeating and manifesting issues in the data ([source](https://gist.github.com/yoavg/9fc9be2f98b47c189a513573d902fb27)).
-- Emoji in the title for reinforcement.
 
 ---
 

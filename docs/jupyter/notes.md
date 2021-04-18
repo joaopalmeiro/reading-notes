@@ -1,6 +1,6 @@
-# Jupyter (and IPython)
+# Notes
 
-## Notes
+## Packages
 
 - [Jupytext](https://jupytext.readthedocs.io/en/latest/): A tool to convert Jupyter notebooks into Markdown files/scripts (and vice-versa) and facilitate version control and code reviews.
 

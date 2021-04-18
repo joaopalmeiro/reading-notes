@@ -19,7 +19,12 @@
 **Example of the `ode()` function** (`deSolve` package):
 
 ```r
-result <- ode(y = initial_state_vars, times = ordered_timepoints_vector, func = differential_equation_fn, parms = parameters)
+result <- ode(
+  y = initial_state_vars,
+  times = ordered_timepoints_vector,
+  func = differential_equation_fn,
+  parms = parameters
+)
 result <- as.data.frame(result)
 ```
 

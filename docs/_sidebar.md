@@ -53,3 +53,11 @@
 - Infectious Disease Modeling
 
   - [Notes](infectious-disease-modeling/notes.md)
+
+- Jupyter (and IPython)
+
+  - [Notes](jupyter/notes.md)
+
+- Machine Learning
+
+  - [Using Statistical Distances for Machine Learning Observability](machine-learning/blog-posts/using_statistical_distances_for_machine_learning_observability.md)
