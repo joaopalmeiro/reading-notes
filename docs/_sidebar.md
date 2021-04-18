@@ -44,3 +44,12 @@
   - Talks
 
     - [The Python Data Visualization Landscape in 2020](data-visualization/talks/the_python_data_visualization_landscape_in_2020.md)
+
+- Google
+
+  - [Google Colab](google/google_colab.md)
+  - [Google Docs](google/google_docs.md)
+
+- Infectious Disease Modeling
+
+  - [Notes](infectious-disease-modeling/notes.md)

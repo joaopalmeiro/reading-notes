@@ -10,3 +10,7 @@
 
 - [docsify-katex](https://github.com/upupming/docsify-katex).
 - [KaTeX documentation](https://katex.org/docs/supported.html).
+- Prism:
+  - [Docsify](https://docsify.js.org/#/language-highlight).
+  - [Supported languages](https://prismjs.com/#supported-languages).
+  - [CDN files](https://cdn.jsdelivr.net/npm/prismjs@1/components/).

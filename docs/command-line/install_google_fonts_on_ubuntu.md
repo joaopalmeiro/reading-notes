@@ -24,7 +24,7 @@ or
 
 ## Check if the font is installed
 
-```sh
+```bash
 $ fc-match Roboto
 Roboto-Regular.ttf: "Roboto" "Regular"
 ```

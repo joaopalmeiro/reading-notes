@@ -1,8 +1,8 @@
-# Infectious Disease Modeling
+# Notes
 
-## Notes
+## Developing the SIR Model
 
-These notes are based on Imperial College London's "[Developing the SIR Model](https://www.coursera.org/learn/developing-the-sir-model)" Coursera course:
+> **Source**: Imperial College London's "[Developing the SIR Model](https://www.coursera.org/learn/developing-the-sir-model)" Coursera course.
 
 - Model output: Projected future (in addition, we have to account for uncertainty).
 - Three essential things to understand a disease:
@@ -14,7 +14,7 @@ These notes are based on Imperial College London's "[Developing the SIR Model](h
 - Rates are in units of inverse time (_per time_).
 - The inverse of a rate gives the average duration that people spend in a specific compartment (_Infected_ or _Recovered_, for example).
 
-## Snippets
+### Snippets
 
 **Example of the `ode()` function** (`deSolve` package):
 
