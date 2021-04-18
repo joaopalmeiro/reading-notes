@@ -19,6 +19,18 @@
         // repo: 'joaopalmeiro/reading-notes',
         loadSidebar: true,
         subMaxLevel: 3,
+        plugins: [
+          // More info: https://github.com/docsifyjs/docsify/blob/develop/docs/index.html#L171
+          function (hook, vm) {
+            hook.beforeEach(function (html) {
+              const url =
+                'https://github.com/joaopalmeiro/reading-notes/blob/master/docs/' + vm.route.file;
+              const editHtml = `[📝 Edit Document](${url})\n`;
+
+              return editHtml + html;
+            });
+          },
+        ],
       };
     </script>
     <!-- CDN files for docsify-katex -->
