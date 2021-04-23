@@ -26,6 +26,7 @@ These notes are based on Wes Bos's "[Command Line Power User](https://wesbos.com
 
 - Ag:
   - Check the list of available file types (_filters_): `ag --list-file-types` (or [here](https://github.com/ggreer/the_silver_searcher/blob/master/tests/list_file_types.t)).
+- Merge two CSV files by joining the columns of both into a single file: `paste -d, f1.csv f2.csv > out.csv` ([source](https://stackoverflow.com/a/43339903)).
 
 ### Aliases
 
