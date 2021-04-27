@@ -45,6 +45,10 @@
 
     - [The Python Data Visualization Landscape in 2020](data-visualization/talks/the_python_data_visualization_landscape_in_2020.md)
 
+- Firefox
+
+  - [Notes](firefox/notes.md)
+
 - Google
 
   - [Google Colab](google/google_colab.md)
