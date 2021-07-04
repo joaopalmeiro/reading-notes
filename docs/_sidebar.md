@@ -140,3 +140,5 @@
     - [Creating a Visual Studio Code Theme - EASILY!](vs-code/tutorials/creating_a_visual_studio_code_theme.md)
     - [How to make your own VS Code theme!](vs-code/tutorials/how_to_make_your_own_vs_code_theme.md)
     - [VS Code extensions that I can't live without!](vs-code/tutorials/vs_code_extensions_that_i_can_t_live_without.md)
+
+  - [Notes](vs-code/notes.md)
