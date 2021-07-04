@@ -6,6 +6,11 @@
 
 > [Website](https://joaopalmeiro.github.io/reading-notes/).
 
+## Development
+
+- `yarn install`.
+- `yarn serve`.
+
 ## Notes
 
 - [docsify-katex](https://github.com/upupming/docsify-katex).

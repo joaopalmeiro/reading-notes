@@ -110,6 +110,7 @@
   - Tutorials
 
     - [chime: Sound Cues](python/tutorials/chime.md)
+    - [parse: Inverse of Format](python/tutorials/parse.md)
 
   - [Notes](python/notes.md)
 
