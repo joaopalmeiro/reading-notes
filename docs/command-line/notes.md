@@ -48,3 +48,7 @@ fi
 ### Shortcuts
 
 - Clear (macOS): <kbd>Command</kbd> + <kbd>K</kbd>.
+
+## Tools
+
+- [bat](https://github.com/sharkdp/bat): An alternative to `cat`.
